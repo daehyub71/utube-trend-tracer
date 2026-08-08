@@ -79,7 +79,7 @@ function VideoRow({ entry, maxScore }: { entry: BoardEntry; maxScore: number }) 
 
   return (
     <a
-      href={`https://www.youtube.com/watch?v=${entry.entityId}`}
+      href={`https://www.youtube.com/watch?v=${encodeURIComponent(entry.entityId)}`}
       target="_blank"
       rel="noopener noreferrer"
       className="flex items-center gap-3 px-4 py-2.5 hover:bg-surface-2 focus-visible:outline-2 focus-visible:outline-accent"

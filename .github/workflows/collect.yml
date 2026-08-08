@@ -25,9 +25,6 @@ jobs:
       run:
         working-directory: pipeline
     env:
-      YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
-      SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
-      SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
       PYTHONUTF8: "1"
     steps:
       - uses: actions/checkout@v4
@@ -38,18 +35,32 @@ jobs:
           cache: pip
           cache-dependency-path: pipeline/requirements.txt
 
+      # 시크릿을 job 레벨에 두면 이 설치 단계에도 환경변수로 들어간다.
+      # 패키지의 빌드 스크립트가 실행되는 지점이므로, 키가 닿지 않게 한다.
       - run: pip install -r requirements.txt
 
       # 카테고리 정의는 YAML이 단일 진실 — 매 주기 반영해 코드 배포 없이 갱신되게 한다.
       - name: Sync category config
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
         run: python -m scripts.sync_config
 
       - name: Collect snapshots
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
         run: python -m scripts.run_collect
 
       # 수집이 일부 실패해도 직전 스냅샷으로 랭킹은 갱신한다 (NFR-7).
       - name: Compute rankings
         if: always()
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
         run: python -m scripts.run_scoring
 
       # RSS 검증은 쿼터를 쓰지 않는다 — 매 주기 돌려도 비용이 없다.
@@ -60,6 +71,10 @@ jobs:
       # 상황판은 장애 상황일수록 필요하므로, 앞 단계가 실패해도 생성한다 (NFR-9).
       - name: Build ops report
         if: always()
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
         run: python -m scripts.build_report
 
       - name: Commit ops report
@@ -67,7 +82,9 @@ jobs:
         working-directory: .
         run: |
           # 산출물은 키·연락처를 담지 않는다 (NFR-10, D13).
-          if grep -rqiE "eyJ[A-Za-z0-9_-]{10,}|AIza[A-Za-z0-9_-]{10,}" docs/reports/; then
+          # 레거시 JWT(eyJ)·Google 키(AIza)뿐 아니라 현재 쓰는 Supabase 키 포맷(sb_secret_)과
+          # DB 접속 문자열까지 잡는다 — 키를 로테이션해도 가드가 무력해지지 않게.
+          if grep -rqiE "eyJ[A-Za-z0-9_-]{10,}|AIza[A-Za-z0-9_-]{10,}|sb_secret_[A-Za-z0-9_-]{6,}|sb_publishable_[A-Za-z0-9_-]{6,}|postgres(ql)?://[^[:space:]]*:[^[:space:]]*@" docs/reports/; then
             echo "::error::상황판 산출물에 시크릿으로 보이는 문자열이 있습니다. 커밋을 중단합니다."
             exit 1
           fi

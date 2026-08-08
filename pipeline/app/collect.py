@@ -28,6 +28,7 @@ from app.retention import purge_cutoff, select_channels_to_graduate
 from app.rss import RssParseError, channel_feed_url, parse_channel_feed
 from app.scoring import is_short_duration
 from app.store import Store
+from app.thumbnail import safe_thumbnail_url
 from app.youtube import COST_LIST, YouTubeApiError, YouTubeClient
 
 RSS_TIMEOUT_S = 15
@@ -193,7 +194,8 @@ def _snapshot_channels(
         {
             "channel_id": c["channel_id"],
             "title": c["title"],
-            "thumbnail_url": c["thumbnail_url"],
+            # 브라우저의 img src로 들어가므로 호스트를 검증해 저장한다.
+            "thumbnail_url": safe_thumbnail_url(c["thumbnail_url"]),
         }
         for c in details
     ]
@@ -247,7 +249,7 @@ def _snapshot_videos(
                 "video_id": video["video_id"],
                 "channel_id": video["channel_id"],
                 "title": video["title"],
-                "thumbnail_url": video["thumbnail_url"],
+                "thumbnail_url": safe_thumbnail_url(video["thumbnail_url"]),
                 "published_at": video["published_at"],
                 "duration_s": video["duration_s"],
                 "is_short": is_short_duration(video["duration_s"]),

@@ -107,9 +107,37 @@ drop policy if exists ut_anon_read_videos            on ut_videos;
 drop policy if exists ut_anon_read_video_snapshots   on ut_video_snapshots;
 drop policy if exists ut_anon_read_trend_scores      on ut_trend_scores;
 
-create policy ut_anon_read_categories        on ut_categories        for select to anon using (enabled);
-create policy ut_anon_read_channels          on ut_channels          for select to anon using (true);
-create policy ut_anon_read_channel_snapshots on ut_channel_snapshots for select to anon using (true);
-create policy ut_anon_read_videos            on ut_videos            for select to anon using (true);
-create policy ut_anon_read_video_snapshots   on ut_video_snapshots   for select to anon using (true);
-create policy ut_anon_read_trend_scores      on ut_trend_scores      for select to anon using (true);
+-- anon key는 브라우저 번들에 공개되므로 누구나 PostgREST를 직접 호출할 수 있다.
+-- 따라서 "웹 UI가 안 보여준다"는 보호가 아니며, 노출하지 않기로 한 행은 정책에서 막는다.
+create policy ut_anon_read_categories on ut_categories for select to anon using (enabled);
+
+-- 졸업(추적 중단)한 채널은 서빙 대상이 아니다.
+create policy ut_anon_read_channels on ut_channels for select to anon using (tracked);
+
+-- 연령제한·미분류 영상은 랭킹에서 빼는 것으로 끝나면 안 된다 (D12, D10) —
+-- 원본 행이 읽히면 제3자가 그 목록만 골라 덤프할 수 있다.
+create policy ut_anon_read_videos on ut_videos for select to anon
+  using (not age_restricted and not unclassified);
+
+-- 스냅샷은 위 정책을 통과한 부모 행에 대해서만 읽히게 한다.
+-- 바깥 테이블을 반드시 한정한다 — `c.channel_id = channel_id` 로 쓰면 안쪽 컬럼끼리
+-- 비교되어 조건이 항상 참이 되고, 정책이 조용히 무력해진다.
+create policy ut_anon_read_channel_snapshots on ut_channel_snapshots for select to anon
+  using (
+    exists (
+      select 1 from ut_channels c
+      where c.channel_id = ut_channel_snapshots.channel_id and c.tracked
+    )
+  );
+
+create policy ut_anon_read_video_snapshots on ut_video_snapshots for select to anon
+  using (
+    exists (
+      select 1 from ut_videos v
+      where v.video_id = ut_video_snapshots.video_id
+        and not v.age_restricted
+        and not v.unclassified
+    )
+  );
+
+create policy ut_anon_read_trend_scores on ut_trend_scores for select to anon using (true);
