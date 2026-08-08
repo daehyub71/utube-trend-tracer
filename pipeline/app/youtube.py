@@ -6,10 +6,16 @@
 
 from __future__ import annotations
 
+import re
 from dataclasses import dataclass, field
 from typing import Any
 
 import requests
+
+# ISO 8601 기간 (예: P1DT2H3M4S) — YouTube가 영상 길이를 이 형식으로 준다.
+_DURATION_RE = re.compile(
+    r"^P(?:(?P<days>\d+)D)?(?:T(?:(?P<hours>\d+)H)?(?:(?P<minutes>\d+)M)?(?:(?P<seconds>\d+)S)?)?$"
+)
 
 API_BASE = "https://www.googleapis.com/youtube/v3"
 
@@ -118,6 +124,47 @@ class YouTubeClient:
                 )
         return collected
 
+    def fetch_videos(self, video_ids: list[str]) -> list[dict[str, Any]]:
+        """영상 통계·메타를 배치로 읽는다 (50개당 1유닛).
+
+        응답에 없는 영상은 삭제·비공개된 것이다 — 호출자가 DB에서 제거해야 한다 (D12).
+
+        Args:
+            video_ids: 영상 id 목록.
+
+        Returns:
+            영상 정보 dict 목록. `duration_s`는 Shorts 판별에 쓴다 (D8).
+        """
+        collected: list[dict[str, Any]] = []
+        for batch in _chunks(video_ids, 50):
+            payload = self._get(
+                "videos",
+                {"part": "snippet,statistics,contentDetails,status", "id": ",".join(batch), "maxResults": 50},
+                cost=COST_LIST,
+            )
+            for item in payload.get("items", []):
+                snippet = item.get("snippet", {})
+                stats = item.get("statistics", {})
+                content = item.get("contentDetails", {})
+                collected.append(
+                    {
+                        "video_id": item.get("id", ""),
+                        "channel_id": snippet.get("channelId", ""),
+                        "title": snippet.get("title", ""),
+                        "description": snippet.get("description", ""),
+                        "tags": snippet.get("tags", []),
+                        "published_at": snippet.get("publishedAt", ""),
+                        "thumbnail_url": snippet.get("thumbnails", {}).get("medium", {}).get("url", ""),
+                        "duration_s": parse_duration(content.get("duration", "")),
+                        # 연령제한 영상은 랭킹에서 제외한다 (D12).
+                        "age_restricted": content.get("contentRating", {}).get("ytRating")
+                        == "ytAgeRestricted",
+                        "view_count": _to_int(stats.get("viewCount")),
+                        "like_count": _to_int(stats.get("likeCount")),
+                    }
+                )
+        return collected
+
     def _get(self, endpoint: str, params: dict[str, Any], *, cost: int) -> dict[str, Any]:
         """API를 호출하고 쿼터 사용량을 누적한다."""
         params = {**params, "key": self.api_key}
@@ -134,6 +181,24 @@ class YouTubeClient:
 
         data: dict[str, Any] = response.json()
         return data
+
+
+def parse_duration(iso_duration: str) -> int | None:
+    """ISO 8601 기간을 초로 바꾼다 (Shorts 판별 입력, D8).
+
+    Args:
+        iso_duration: 예 `PT2M30S`.
+
+    Returns:
+        초 단위 길이. 형식이 아니거나 0이면 None — 길이 미상으로 취급해
+        Shorts 보정을 함부로 걸지 않는다 (진행 중 라이브가 PT0S로 온다).
+    """
+    match = _DURATION_RE.match(iso_duration or "")
+    if not match:
+        return None
+    parts = {k: int(v) for k, v in match.groupdict(default="0").items()}
+    total = parts["days"] * 86_400 + parts["hours"] * 3_600 + parts["minutes"] * 60 + parts["seconds"]
+    return total or None
 
 
 def _chunks(items: list[str], size: int) -> list[list[str]]:

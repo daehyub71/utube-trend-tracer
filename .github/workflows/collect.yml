@@ -1,0 +1,53 @@
+name: Collect
+
+# 하루 3회 수집 (KST 기준 09:00 / 17:00 / 01:00).
+# 예약 실행은 수십 분 늦을 수 있다 — 점수는 스냅샷 실측 시각으로 계산하므로 (FR-7)
+# 지연이 랭킹을 왜곡하지 않는다.
+on:
+  schedule:
+    - cron: "0 0,8,16 * * *"
+  workflow_dispatch:
+
+# 최소 권한 — 수집 잡은 리포에 쓰지 않는다.
+permissions:
+  contents: read
+
+concurrency:
+  group: collect
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    name: collect and score
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    defaults:
+      run:
+        working-directory: pipeline
+    env:
+      YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+      SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+      SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
+      PYTHONUTF8: "1"
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+          cache-dependency-path: pipeline/requirements.txt
+
+      - run: pip install -r requirements.txt
+
+      # 카테고리 정의는 YAML이 단일 진실 — 매 주기 반영해 코드 배포 없이 갱신되게 한다.
+      - name: Sync category config
+        run: python -m scripts.sync_config
+
+      - name: Collect snapshots
+        run: python -m scripts.run_collect
+
+      # 수집이 일부 실패해도 직전 스냅샷으로 랭킹은 갱신한다 (NFR-7).
+      - name: Compute rankings
+        if: always()
+        run: python -m scripts.run_scoring
