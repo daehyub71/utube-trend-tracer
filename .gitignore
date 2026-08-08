@@ -1,0 +1,25 @@
+# 환경 변수·시크릿 (NFR-3)
+.env
+.env.local
+.env*.local
+
+# Python
+venv/
+__pycache__/
+*.pyc
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/
+
+# Node / Next.js
+node_modules/
+.next/
+out/
+
+# OS/에디터
+.DS_Store
+
+# Next.js 추가
+web/.next/
+web/out/
+web/next-env.d.ts

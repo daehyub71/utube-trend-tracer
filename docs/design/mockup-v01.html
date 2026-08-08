@@ -1,0 +1,378 @@
+<title>utube-trend-tracer — UI 시안 v0.1</title>
+<style>
+  :root {
+    --ground: #F4F7F7;
+    --surface: #FFFFFF;
+    --surface-2: #ECF1F1;
+    --ink: #17272A;
+    --ink-2: #56696D;
+    --ink-3: #8AA0A3;
+    --line: #DCE5E5;
+    --accent: #0E7C86;
+    --accent-ink: #0A626A;
+    --accent-tint: #E2F1F2;
+    --heat: #C2410C;
+    --heat-tint: #FBEAE0;
+    --chart-grid: #E4EBEB;
+  }
+  :root:not([data-theme="light"]) { }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --ground: #0E1719;
+      --surface: #152023;
+      --surface-2: #1C2A2E;
+      --ink: #E6EEEE;
+      --ink-2: #9BB0B3;
+      --ink-3: #6A8286;
+      --line: #263A3E;
+      --accent: #45C2CC;
+      --accent-ink: #6ED3DB;
+      --accent-tint: #163A3E;
+      --heat: #FF9163;
+      --heat-tint: #3A2216;
+      --chart-grid: #223438;
+    }
+  }
+  :root[data-theme="dark"] {
+    --ground: #0E1719;
+    --surface: #152023;
+    --surface-2: #1C2A2E;
+    --ink: #E6EEEE;
+    --ink-2: #9BB0B3;
+    --ink-3: #6A8286;
+    --line: #263A3E;
+    --accent: #45C2CC;
+    --accent-ink: #6ED3DB;
+    --accent-tint: #163A3E;
+    --heat: #FF9163;
+    --heat-tint: #3A2216;
+    --chart-grid: #223438;
+  }
+
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--ground);
+    color: var(--ink);
+    font-family: "Pretendard Variable", Pretendard, "Apple SD Gothic Neo", "Noto Sans KR", system-ui, sans-serif;
+    line-height: 1.55;
+    -webkit-font-smoothing: antialiased;
+  }
+  .wrap { max-width: 1060px; margin: 0 auto; padding: 48px 24px 96px; }
+
+  /* ---------- 문서(시안 설명) 레이어 ---------- */
+  .doc-eyebrow {
+    font-size: 12px; letter-spacing: .14em; font-weight: 700;
+    color: var(--accent-ink); text-transform: uppercase;
+  }
+  h1 { font-size: 30px; font-weight: 800; letter-spacing: -.02em; margin: 8px 0 4px; text-wrap: balance; }
+  .doc-sub { color: var(--ink-2); max-width: 62ch; margin: 0 0 8px; }
+  .doc-note {
+    display: inline-block; margin-top: 10px; padding: 6px 12px; border-radius: 6px;
+    background: var(--accent-tint); color: var(--accent-ink); font-size: 13px; font-weight: 600;
+  }
+  section.doc { margin-top: 56px; }
+  h2 { font-size: 20px; font-weight: 800; letter-spacing: -.01em; margin: 0 0 4px; }
+  .h2-sub { color: var(--ink-2); font-size: 14px; margin: 0 0 20px; max-width: 68ch; }
+
+  /* 팔레트 스와치 */
+  .swatches { display: flex; flex-wrap: wrap; gap: 10px; }
+  .sw { width: 118px; border: 1px solid var(--line); border-radius: 8px; overflow: hidden; background: var(--surface); }
+  .sw .chip { height: 44px; }
+  .sw .meta { padding: 6px 9px; font-size: 11px; color: var(--ink-2); }
+  .sw .meta b { display: block; color: var(--ink); font-size: 12px; }
+
+  /* IA 트리 */
+  .ia {
+    background: var(--surface); border: 1px solid var(--line); border-radius: 10px;
+    padding: 20px 24px; font-size: 14px; overflow-x: auto;
+  }
+  .ia pre { margin: 0; font-family: "SF Mono", ui-monospace, Menlo, monospace; font-size: 13px; line-height: 1.7; color: var(--ink-2); }
+  .ia pre b { color: var(--ink); }
+
+  /* ---------- 목업 프레임 ---------- */
+  .frame { border: 1px solid var(--line); border-radius: 12px; overflow: hidden; background: var(--surface); box-shadow: 0 1px 3px rgba(23,39,42,.06); }
+  .chrome {
+    display: flex; align-items: center; gap: 8px;
+    padding: 9px 14px; background: var(--surface-2); border-bottom: 1px solid var(--line);
+  }
+  .chrome i { width: 10px; height: 10px; border-radius: 50%; background: var(--line); }
+  .chrome .url {
+    flex: 1; max-width: 340px; margin-left: 8px; padding: 3px 12px; border-radius: 99px;
+    background: var(--surface); border: 1px solid var(--line);
+    font-size: 11px; color: var(--ink-3);
+  }
+  .mock { padding: 0; }
+
+  /* 목업: 상단 내비 */
+  .nav {
+    display: flex; align-items: center; gap: 14px;
+    padding: 14px 28px; border-bottom: 1px solid var(--line);
+  }
+  .brand { display: flex; align-items: baseline; gap: 8px; font-weight: 800; letter-spacing: -.02em; font-size: 18px; }
+  .brand .tick { color: var(--accent); }
+  .self-badge {
+    font-size: 11px; font-weight: 700; color: var(--accent-ink);
+    background: var(--accent-tint); border-radius: 5px; padding: 3px 8px;
+  }
+  .nav .sp { flex: 1; }
+  .nav .link { font-size: 13px; color: var(--ink-2); }
+  .theme-toggle {
+    width: 30px; height: 30px; border-radius: 7px; border: 1px solid var(--line);
+    display: grid; place-items: center; font-size: 13px; color: var(--ink-2);
+  }
+
+  /* 목업: 카테고리 선택 */
+  .cats { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; padding: 18px 28px 6px; }
+  .chip {
+    padding: 7px 14px; border-radius: 99px; border: 1px solid var(--line);
+    font-size: 13px; font-weight: 600; color: var(--ink-2); background: var(--surface);
+  }
+  .chip.on { background: var(--accent); border-color: var(--accent); color: #FFFFFF; }
+  :root[data-theme="dark"] .chip.on, .chip.on { color: #FFFFFF; }
+  .seg { display: inline-flex; margin-left: auto; border: 1px solid var(--line); border-radius: 8px; overflow: hidden; }
+  .seg span { padding: 6px 13px; font-size: 12px; font-weight: 600; color: var(--ink-2); }
+  .seg span.on { background: var(--accent-tint); color: var(--accent-ink); }
+  .basis {
+    padding: 6px 28px 18px; font-size: 12px; color: var(--ink-3);
+  }
+
+  /* 목업: 보드 그리드 */
+  .boards { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; padding: 0 28px 28px; }
+  @media (max-width: 760px) { .boards { grid-template-columns: 1fr; } }
+  .board { border: 1px solid var(--line); border-radius: 10px; background: var(--surface); overflow: hidden; }
+  .board-h { display: flex; align-items: baseline; gap: 8px; padding: 14px 16px 10px; }
+  .board-h .mark { width: 8px; height: 8px; border-radius: 2px; background: var(--accent); align-self: center; }
+  .board-h .mark.heat { background: var(--heat); }
+  .board-h h3 { margin: 0; font-size: 15px; font-weight: 800; letter-spacing: -.01em; }
+  .board-h .hint { font-size: 11px; color: var(--ink-3); margin-left: auto; }
+  .rows { border-top: 1px solid var(--line); }
+  .row { display: flex; align-items: center; gap: 12px; padding: 10px 16px; border-bottom: 1px solid var(--line); }
+  .row:last-child { border-bottom: 0; }
+  .rank { width: 16px; font-size: 13px; font-weight: 800; color: var(--ink-3); font-variant-numeric: tabular-nums; }
+  .row .rank.top { color: var(--accent-ink); }
+  .thumb {
+    width: 78px; height: 44px; border-radius: 6px; flex: none;
+    background: linear-gradient(135deg, var(--surface-2), var(--line));
+    display: grid; place-items: center; color: var(--ink-3); font-size: 11px;
+  }
+  .avatar {
+    width: 40px; height: 40px; border-radius: 50%; flex: none;
+    background: linear-gradient(135deg, var(--accent-tint), var(--surface-2));
+    display: grid; place-items: center; font-weight: 800; font-size: 14px; color: var(--accent-ink);
+  }
+  .row .t { min-width: 0; flex: 1; }
+  .row .t .title { font-size: 13px; font-weight: 650; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .row .t .meta { font-size: 12px; color: var(--ink-2); font-variant-numeric: tabular-nums; }
+  .score {
+    flex: none; font-size: 12px; font-weight: 800; font-variant-numeric: tabular-nums;
+    color: var(--heat); background: var(--heat-tint); border-radius: 6px; padding: 4px 8px;
+  }
+  .score.calm { color: var(--accent-ink); background: var(--accent-tint); }
+  .ratio { display: block; font-size: 10px; font-weight: 600; color: var(--ink-3); text-align: right; }
+
+  /* 목업: 채널 상세 */
+  .ch-head { display: flex; align-items: center; gap: 16px; padding: 24px 28px 8px; }
+  .ch-head .avatar { width: 56px; height: 56px; font-size: 20px; }
+  .ch-head h3 { margin: 0; font-size: 20px; font-weight: 800; }
+  .ch-tags { display: flex; gap: 6px; margin-top: 4px; }
+  .tag { font-size: 11px; font-weight: 700; padding: 2px 8px; border-radius: 4px; background: var(--accent-tint); color: var(--accent-ink); }
+  .ch-stats { margin-left: auto; text-align: right; }
+  .ch-stats .n { font-size: 20px; font-weight: 800; font-variant-numeric: tabular-nums; }
+  .ch-stats .l { font-size: 11px; color: var(--ink-3); }
+  .charts { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; padding: 14px 28px 8px; }
+  @media (max-width: 640px) { .charts { grid-template-columns: 1fr; } }
+  .chart-card { border: 1px solid var(--line); border-radius: 10px; padding: 14px 16px 8px; background: var(--surface); }
+  .chart-card .ct { font-size: 12px; font-weight: 700; color: var(--ink-2); margin-bottom: 2px; }
+  .chart-card .cv { font-size: 18px; font-weight: 800; font-variant-numeric: tabular-nums; }
+  .chart-card .cd { font-size: 11px; color: var(--heat); font-weight: 700; }
+  .chart-card svg { width: 100%; height: 84px; display: block; margin-top: 6px; }
+  .spark-line { fill: none; stroke: var(--accent); stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+  .spark-fill { fill: var(--accent); opacity: .12; stroke: none; }
+  .spark-grid { stroke: var(--chart-grid); stroke-width: 1; }
+  .spark-end { fill: var(--accent); stroke: var(--surface); stroke-width: 2; }
+  .axis-lab { font-size: 10px; fill: var(--ink-3); font-variant-numeric: tabular-nums; }
+  .ch-videos { padding: 8px 28px 28px; }
+  .ch-videos .sect { font-size: 13px; font-weight: 800; margin: 10px 0 8px; }
+
+  /* 결정 포인트 */
+  .decisions { display: grid; gap: 10px; }
+  .dq {
+    background: var(--surface); border: 1px solid var(--line); border-left: 3px solid var(--accent);
+    border-radius: 8px; padding: 12px 16px; font-size: 14px;
+  }
+  .dq b { display: block; margin-bottom: 2px; }
+  .dq span { color: var(--ink-2); font-size: 13px; }
+
+  .cap { font-size: 12px; color: var(--ink-3); margin: 10px 2px 0; }
+  .mobile-frame { max-width: 390px; }
+</style>
+
+<div class="wrap">
+  <header>
+    <div class="doc-eyebrow">Design Proposal · v0.1 · 2026-08-08</div>
+    <h1>utube-trend-tracer — UI 디자인 시안</h1>
+    <p class="doc-sub">카테고리별 유튜브 트렌드 발견 서비스의 첫 시안입니다. 아래 목업의 데이터는 모두 가상의 예시이며, 합의 후 이 시안이 docs/DESIGN.md의 구현 기준이 됩니다.</p>
+    <div class="doc-note">검토용 시안 — 이 페이지는 시스템 테마에 따라 라이트/다크 시안이 함께 확인됩니다</div>
+  </header>
+
+  <!-- 1. 디자인 토큰 -->
+  <section class="doc">
+    <h2>1. 컬러 · 타이포</h2>
+    <p class="h2-sub">유튜브 레드는 의도적으로 쓰지 않습니다(출처 표기로만 사용, NFR-1). 브랜드 색은 "신호를 추적하는 트레이서"의 <b>딥 틸</b>, 급상승 수치에만 쓰는 <b>엠버(heat)</b>를 분리해 점수가 한눈에 도드라지게 합니다. 서체는 Pretendard(시스템 고딕 폴백), 수치는 tabular-nums.</p>
+    <div class="swatches">
+      <div class="sw"><div class="chip" style="background:#0E7C86"></div><div class="meta"><b>Accent · 틸</b>#0E7C86 / 다크 #45C2CC</div></div>
+      <div class="sw"><div class="chip" style="background:#C2410C"></div><div class="meta"><b>Heat · 급상승</b>#C2410C / 다크 #FF9163</div></div>
+      <div class="sw"><div class="chip" style="background:#17272A"></div><div class="meta"><b>Ink</b>#17272A / 다크 #E6EEEE</div></div>
+      <div class="sw"><div class="chip" style="background:#F4F7F7; border-bottom:1px solid #DCE5E5"></div><div class="meta"><b>Ground</b>#F4F7F7 / 다크 #0E1719</div></div>
+      <div class="sw"><div class="chip" style="background:#E2F1F2"></div><div class="meta"><b>Accent tint</b>뱃지·선택 상태</div></div>
+    </div>
+  </section>
+
+  <!-- 2. IA -->
+  <section class="doc">
+    <h2>2. 정보 구조 (IA)</h2>
+    <p class="h2-sub">화면은 3개로 유지합니다. 모든 영상·채널 클릭은 유튜브로 이동(NFR-1), 상세 페이지는 채널만 둡니다(D6).</p>
+    <div class="ia"><pre>
+<b>홈 /</b> ─ 카테고리(6) × 국내/해외 선택 → 4개 랭킹 보드
+   ├── 지금 뜨는 영상        (α 0.25 · 업로드 7일 이내)
+   ├── 신규 뜨는 영상        (α 1.0 · 구독자 대비 배율 표시)
+   ├── 지금 뜨는 유튜버      (주간 성장률)
+   └── 신규 뜨는 유튜버      (구독 10만 이하)
+<b>채널 상세 /channel/[id]</b> ─ 30일 구독자·일일 조회수 그래프 + 최근 급상승 영상
+<b>소개·정책 /about</b> ─ 자체 지표 설명 · 개인정보처리방침 · 채널 제외(opt-out) 안내</pre></div>
+  </section>
+
+  <!-- 3. 홈 목업 -->
+  <section class="doc">
+    <h2>3. 홈 — 데스크톱</h2>
+    <p class="h2-sub">한 화면에서 "이 카테고리에서 지금 무엇이 뜨는가"를 4개 보드로 답합니다. 급상승 점수는 heat 색 pill로 통일 — 점수만 따라 읽어도 페이지가 스캔됩니다.</p>
+    <div class="frame">
+      <div class="chrome"><i></i><i></i><i></i><div class="url">trend-tracer.example.app</div></div>
+      <div class="mock">
+        <div class="nav">
+          <div class="brand"><span class="tick">▲</span>트렌드 트레이서</div>
+          <span class="self-badge">자체 산출 지표</span>
+          <div class="sp"></div>
+          <span class="link">소개·정책</span>
+          <div class="theme-toggle">◐</div>
+        </div>
+        <div class="cats">
+          <span class="chip on">음식</span><span class="chip">여행</span><span class="chip">IT·테크</span>
+          <span class="chip">바이브코딩·AI</span><span class="chip">브이로그·일상</span><span class="chip">운동·건강</span>
+          <span class="seg"><span class="on">전체</span><span>국내</span><span>해외</span></span>
+        </div>
+        <div class="basis">오늘 14:00 산출 기준 · 트렌드 점수는 유튜브 공식 지표가 아닌 자체 산출값입니다 · 데이터 출처: YouTube</div>
+        <div class="boards">
+          <div class="board">
+            <div class="board-h"><span class="mark heat"></span><h3>지금 뜨는 영상</h3><span class="hint">최근 7일 업로드 · 조회수 증가 속도</span></div>
+            <div class="rows">
+              <div class="row"><span class="rank top">1</span><div class="thumb">▶</div><div class="t"><div class="title">편의점 신상 5종, 솔직하게 다 먹어봄</div><div class="meta">야식탐험대 · 조회 42.1만 · 1일 전</div></div><span class="score">▲ 87</span></div>
+              <div class="row"><span class="rank top">2</span><div class="thumb">▶</div><div class="t"><div class="title">시장 국밥 3,000원의 기적</div><div class="meta">밥심로드 · 조회 28.4만 · 2일 전</div></div><span class="score">▲ 74</span></div>
+              <div class="row"><span class="rank">3</span><div class="thumb">▶</div><div class="t"><div class="title">집에서 만드는 마라탕, 이게 정석</div><div class="meta">주말셰프 김달 · 조회 19.7만 · 1일 전</div></div><span class="score">▲ 61</span></div>
+              <div class="row"><span class="rank">4</span><div class="thumb">▶</div><div class="t"><div class="title">냉동만두 7종 블라인드 테스트</div><div class="meta">간편식연구소 · 조회 15.2만 · 3일 전</div></div><span class="score">▲ 55</span></div>
+            </div>
+          </div>
+          <div class="board">
+            <div class="board-h"><span class="mark heat"></span><h3>신규 뜨는 영상</h3><span class="hint">구독자 규모 대비 성과</span></div>
+            <div class="rows">
+              <div class="row"><span class="rank top">1</span><div class="thumb">▶</div><div class="t"><div class="title">자취생 만원 장보기 풀코스</div><div class="meta">자취만렙 · 구독 8,200 · 조회 12.3만</div></div><span class="score">▲ 95<span class="ratio">구독자의 15배</span></span></div>
+              <div class="row"><span class="rank top">2</span><div class="thumb">▶</div><div class="t"><div class="title">국물 하나로 끝내는 일주일 식단</div><div class="meta">국물연구소 · 구독 2.4만 · 조회 9.8만</div></div><span class="score">▲ 82<span class="ratio">구독자의 4배</span></span></div>
+              <div class="row"><span class="rank">3</span><div class="thumb">▶</div><div class="t"><div class="title">시골 할머니 손맛 그대로, 장아찌 3종</div><div class="meta">촌집밥상 · 구독 1.1만 · 조회 3.9만</div></div><span class="score">▲ 68<span class="ratio">구독자의 3.5배</span></span></div>
+              <div class="row"><span class="rank">4</span><div class="thumb">▶</div><div class="t"><div class="title">다이어트 도시락 5일 준비 브이로그</div><div class="meta">가벼운식탁 · 구독 6,700 · 조회 2.2만</div></div><span class="score">▲ 54<span class="ratio">구독자의 3.2배</span></span></div>
+            </div>
+          </div>
+          <div class="board">
+            <div class="board-h"><span class="mark"></span><h3>지금 뜨는 유튜버</h3><span class="hint">주간 구독자·조회수 성장률</span></div>
+            <div class="rows">
+              <div class="row"><span class="rank top">1</span><div class="avatar">밥</div><div class="t"><div class="title">밥심로드</div><div class="meta">구독 34.2만 · 주간 +4.1만</div></div><span class="score calm">+13.6%</span></div>
+              <div class="row"><span class="rank top">2</span><div class="avatar">야</div><div class="t"><div class="title">야식탐험대</div><div class="meta">구독 51.0만 · 주간 +4.3만</div></div><span class="score calm">+9.1%</span></div>
+              <div class="row"><span class="rank">3</span><div class="avatar">간</div><div class="t"><div class="title">간편식연구소</div><div class="meta">구독 18.9만 · 주간 +1.2만</div></div><span class="score calm">+6.8%</span></div>
+              <div class="row"><span class="rank">4</span><div class="avatar">김</div><div class="t"><div class="title">주말셰프 김달</div><div class="meta">구독 27.5만 · 주간 +1.4만</div></div><span class="score calm">+5.3%</span></div>
+            </div>
+          </div>
+          <div class="board">
+            <div class="board-h"><span class="mark"></span><h3>신규 뜨는 유튜버</h3><span class="hint">구독 10만 이하 · 성장률</span></div>
+            <div class="rows">
+              <div class="row"><span class="rank top">1</span><div class="avatar">자</div><div class="t"><div class="title">자취만렙</div><div class="meta">구독 8,200 · 주간 +5,600</div></div><span class="score">+210%</span></div>
+              <div class="row"><span class="rank top">2</span><div class="avatar">국</div><div class="t"><div class="title">국물연구소</div><div class="meta">구독 2.4만 · 주간 +1.1만</div></div><span class="score">+88%</span></div>
+              <div class="row"><span class="rank">3</span><div class="avatar">촌</div><div class="t"><div class="title">촌집밥상</div><div class="meta">구독 1.1만 · 주간 +3,900</div></div><span class="score">+55%</span></div>
+              <div class="row"><span class="rank">4</span><div class="avatar">가</div><div class="t"><div class="title">가벼운식탁</div><div class="meta">구독 6,700 · 주간 +2,100</div></div><span class="score">+46%</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <p class="cap">모바일(≤760px)에서는 보드가 세로 1열로 쌓이고 카테고리 칩은 가로 스크롤됩니다. 실구현 시 각 행 클릭은 유튜브 새 탭, 채널명 클릭은 채널 상세로 이동.</p>
+  </section>
+
+  <!-- 4. 채널 상세 목업 -->
+  <section class="doc">
+    <h2>4. 채널 상세</h2>
+    <p class="h2-sub">구독자와 일일 조회수는 스케일이 달라 한 축에 겹치지 않고 <b>미니 차트 2개</b>로 나란히 둡니다(이중축 금지). 끝점 강조 + 실구현 시 hover 툴팁 포함.</p>
+    <div class="frame">
+      <div class="chrome"><i></i><i></i><i></i><div class="url">trend-tracer.example.app/channel/UCxxxx</div></div>
+      <div class="mock">
+        <div class="ch-head">
+          <div class="avatar">밥</div>
+          <div>
+            <h3>밥심로드</h3>
+            <div class="ch-tags"><span class="tag">음식 · 국내</span><span class="tag">지금 뜨는 유튜버 2위</span></div>
+          </div>
+          <div class="ch-stats"><div class="n">34.2만</div><div class="l">구독자 · 14:00 기준</div></div>
+        </div>
+        <div class="charts">
+          <div class="chart-card">
+            <div class="ct">구독자 (30일)</div>
+            <div class="cv">342,100 <span class="cd">+13.6%</span></div>
+            <svg viewBox="0 0 320 84" role="img" aria-label="구독자 30일 추이">
+              <line class="spark-grid" x1="0" y1="20" x2="320" y2="20"></line>
+              <line class="spark-grid" x1="0" y1="46" x2="320" y2="46"></line>
+              <line class="spark-grid" x1="0" y1="72" x2="320" y2="72"></line>
+              <path class="spark-fill" d="M4,66 L36,64 L68,63 L100,60 L132,58 L164,54 L196,50 L228,40 L260,28 L292,16 L292,72 L4,72 Z"></path>
+              <path class="spark-line" d="M4,66 L36,64 L68,63 L100,60 L132,58 L164,54 L196,50 L228,40 L260,28 L292,16"></path>
+              <circle class="spark-end" cx="292" cy="16" r="4"></circle>
+              <text class="axis-lab" x="4" y="82">7/9</text>
+              <text class="axis-lab" x="276" y="82">8/8</text>
+            </svg>
+          </div>
+          <div class="chart-card">
+            <div class="ct">일일 조회수 (30일)</div>
+            <div class="cv">51.4만 <span class="cd">최고치</span></div>
+            <svg viewBox="0 0 320 84" role="img" aria-label="일일 조회수 30일 추이">
+              <line class="spark-grid" x1="0" y1="20" x2="320" y2="20"></line>
+              <line class="spark-grid" x1="0" y1="46" x2="320" y2="46"></line>
+              <line class="spark-grid" x1="0" y1="72" x2="320" y2="72"></line>
+              <path class="spark-fill" d="M4,60 L36,63 L68,55 L100,62 L132,50 L164,58 L196,44 L228,52 L260,30 L292,14 L292,72 L4,72 Z"></path>
+              <path class="spark-line" d="M4,60 L36,63 L68,55 L100,62 L132,50 L164,58 L196,44 L228,52 L260,30 L292,14"></path>
+              <circle class="spark-end" cx="292" cy="14" r="4"></circle>
+              <text class="axis-lab" x="4" y="82">7/9</text>
+              <text class="axis-lab" x="276" y="82">8/8</text>
+            </svg>
+          </div>
+        </div>
+        <div class="ch-videos">
+          <div class="sect">최근 급상승 영상</div>
+          <div class="board"><div class="rows">
+            <div class="row"><span class="rank top">1</span><div class="thumb">▶</div><div class="t"><div class="title">시장 국밥 3,000원의 기적</div><div class="meta">조회 28.4만 · 2일 전</div></div><span class="score">▲ 74</span></div>
+            <div class="row"><span class="rank">2</span><div class="thumb">▶</div><div class="t"><div class="title">기사식당 백반 전국 일주 1편</div><div class="meta">조회 11.9만 · 5일 전</div></div><span class="score">▲ 48</span></div>
+            <div class="row"><span class="rank">3</span><div class="thumb">▶</div><div class="t"><div class="title">순대국 vs 돼지국밥, 최후의 한 그릇</div><div class="meta">조회 8.2만 · 6일 전</div></div><span class="score">▲ 39</span></div>
+          </div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5. 결정 포인트 -->
+  <section class="doc">
+    <h2>5. 검토·결정해 주세요</h2>
+    <p class="h2-sub">아래 5개가 합의되면 DESIGN.md에 기록하고 M4 구현 기준으로 확정합니다.</p>
+    <div class="decisions">
+      <div class="dq"><b>DQ1. 전체 톤</b><span>틸 액센트 + 엠버 급상승 조합(유튜브 레드 회피)이 괜찮은지, 다른 색 방향을 원하는지.</span></div>
+      <div class="dq"><b>DQ2. 보드 배치</b><span>데스크톱 2×2 그리드(현재 시안) vs 탭으로 보드 전환(한 번에 하나, 행을 더 길게).</span></div>
+      <div class="dq"><b>DQ3. 점수 표기</b><span>영상은 "▲ 87" 점수, 유튜버는 "+13.6%" 성장률로 표기 구분 — 하나로 통일할지 유지할지.</span></div>
+      <div class="dq"><b>DQ4. 보드당 행 수</b><span>기본 노출 개수(시안은 4행) — 5행/10행 + "더 보기" 여부.</span></div>
+      <div class="dq"><b>DQ5. 워드마크</b><span>임시 워드마크 "▲ 트렌드 트레이서" — 서비스명·로고 방향 (추후 변경 가능, D1).</span></div>
+    </div>
+  </section>
+</div>
