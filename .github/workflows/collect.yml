@@ -8,9 +8,9 @@ on:
     - cron: "0 0,8,16 * * *"
   workflow_dispatch:
 
-# 최소 권한 — 수집 잡은 리포에 쓰지 않는다.
+# 상황판 갱신 커밋을 위해 쓰기가 필요하다 — 그 외 권한은 주지 않는다.
 permissions:
-  contents: read
+  contents: write
 
 concurrency:
   group: collect
@@ -51,3 +51,28 @@ jobs:
       - name: Compute rankings
         if: always()
         run: python -m scripts.run_scoring
+
+      # RSS 검증은 쿼터를 쓰지 않는다 — 매 주기 돌려도 비용이 없다.
+      - name: Verify seed feeds
+        if: always()
+        run: python -m scripts.verify_seeds --json ../docs/reports/rss_verify.json || true
+
+      # 상황판은 장애 상황일수록 필요하므로, 앞 단계가 실패해도 생성한다 (NFR-9).
+      - name: Build ops report
+        if: always()
+        run: python -m scripts.build_report
+
+      - name: Commit ops report
+        if: always()
+        working-directory: .
+        run: |
+          # 산출물은 키·연락처를 담지 않는다 (NFR-10, D13).
+          if grep -rqiE "eyJ[A-Za-z0-9_-]{10,}|AIza[A-Za-z0-9_-]{10,}" docs/reports/; then
+            echo "::error::상황판 산출물에 시크릿으로 보이는 문자열이 있습니다. 커밋을 중단합니다."
+            exit 1
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/reports/
+          git diff --staged --quiet || git commit -m "chore: update ops report [skip ci]"
+          git push
