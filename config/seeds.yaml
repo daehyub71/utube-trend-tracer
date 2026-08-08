@@ -1,0 +1,407 @@
+# 시드 채널 (SPEC FR-6, D4)
+#
+# scripts/discover_seeds.py 가 생성하고 scripts/verify_seeds.py --prune 가 정리한다.
+# 손으로 추가·삭제해도 된다 — 재실행 시 지정한 대분류만 덮어쓴다.
+# 국내/해외 태그는 여기 없다 — 영상 소재 단위로 판정하며 (D9),
+# 채널 카테고리는 M2에서 그 채널 영상들의 분포로 정한다.
+
+version: 1
+channels:
+  food:
+  - id: UCwsFLjczPWiiWBS9_cdSQIQ
+    title: 교광TV
+    subscribers: 3860000
+    discovered_by: 먹방
+  - id: UCC9pQY_uaBSa0WOpMNJHbEQ
+    title: 자취요리신 simple cooking
+    subscribers: 2270000
+    discovered_by: 요리 레시피
+  - id: UCVXx89z5j3gkQMGScNqmWjw
+    title: 함께해요 맛나요리
+    subscribers: 1640000
+    discovered_by: 요리 레시피
+  - id: UC37fRkl_iIjDAr9pf0FFzGA
+    title: 딸을 위한 레시피 Recipes for daughters
+    subscribers: 1150000
+    discovered_by: 요리 레시피
+  - id: UCslni4iVQ-e784AU83eVcnQ
+    title: 유지만 yuziman
+    subscribers: 960000
+    discovered_by: 요리 레시피
+  - id: UCObJpvG3_f0P3EuLJCjzT5g
+    title: 빅페이스 BIGFACE
+    subscribers: 881000
+    discovered_by: 맛집 리뷰
+  - id: UC-T8S0Vs2lvVXSkQv2qUStw
+    title: 1분요리왕 통키
+    subscribers: 675000
+    discovered_by: 요리 레시피
+  - id: UCWyjY6ykM58LO5ipzRgIzGA
+    title: 정호영의 오늘도 요리 Kitchen Caden
+    subscribers: 667000
+    discovered_by: 요리 레시피
+  - id: UCKA_6r3CWC76x_EaFO6jsPA
+    title: 만개의레시피 10K Recipe
+    subscribers: 618000
+    discovered_by: 요리 레시피
+  - id: UCnMJ4zTwsDWHY1cdzHvcy0Q
+    title: 요리고수
+    subscribers: 420000
+    discovered_by: 요리 레시피
+  - id: UCmufNhhBlfucIlTBofPxNpQ
+    title: 후딱 레시피 Huttak
+    subscribers: 330000
+    discovered_by: 요리 레시피
+  - id: UCjeFmKMYYd1L9Glf-itT-Fg
+    title: 일등감의 쉬운 레시피
+    subscribers: 263000
+    discovered_by: 요리 레시피
+  - id: UCA2Aoj5nHJcBukGWLMccK7Q
+    title: 우리집오늘의요리
+    subscribers: 231000
+    discovered_by: 요리 레시피
+  - id: UCIYzQfZWi059RjaYgQUVLnw
+    title: 용용먹방 YongYong
+    subscribers: 149000
+    discovered_by: 먹방
+  - id: UC2PkqKo7GNK0jKt1YfYIH6w
+    title: CME 먹방 ASMR
+    subscribers: 132000
+    discovered_by: 먹방
+  - id: UCKO8RCkj4V-2mq7DLuoOObQ
+    title: 명작맛집
+    subscribers: 116000
+    discovered_by: 맛집 리뷰
+  - id: UCmlNL48ZaUI7F-FdQdPxFTw
+    title: '라라먹방 Rara mukbang '
+    subscribers: 88200
+    discovered_by: 먹방
+  travel:
+  - id: UCxgeEPgtd5Aw7HgoEUXCauA
+    title: 꾸준 kkujun
+    subscribers: 897000
+    discovered_by: 해외여행
+  - id: UC7e5oAresWJW6LOyygdSUXw
+    title: 박진우[JINU]
+    subscribers: 817000
+    discovered_by: 해외여행
+  - id: UCvuwlY4fWkWMuzRkj5MAK9Q
+    title: 초마드 CHOMAD
+    subscribers: 754000
+    discovered_by: 여행 브이로그
+  - id: UCugz3-UlkX2P77PtK1Ju0RA
+    title: 쏘이Soy The World
+    subscribers: 671000
+    discovered_by: 여행 브이로그
+  - id: UCOt5yWZBDjI_aOM3efYtjnQ
+    title: 내이름은유재석 mynameyjs
+    subscribers: 157000
+    discovered_by: 해외여행
+  - id: UCHLowkcv5CvjgT0MCd7SbJA
+    title: 여행작가 봄비
+    subscribers: 69000
+    discovered_by: 국내여행
+  - id: UCZsg1rkojx4OXb30xjtTRww
+    title: Jay쌤여행TV
+    subscribers: 54500
+    discovered_by: 국내여행
+  - id: UC3BLT9Fd_7yPFKbGLSfx0Fw
+    title: 여행일기 - 시니어 여행 전문 채널
+    subscribers: 43000
+    discovered_by: 국내여행
+  - id: UCTD4xCbpjFoy6NwIEYCCykA
+    title: 똑똑한 여행 프로젝트, 똑프
+    subscribers: 42200
+    discovered_by: 해외여행
+  - id: UCuOscUJC9-vQPMpHd51WrlQ
+    title: 국내트레킹
+    subscribers: 40800
+    discovered_by: 국내여행
+  - id: UC37RfRDyeIrSDlGcQS15otg
+    title: 세계여행하는 너구리TV
+    subscribers: 23100
+    discovered_by: 해외여행
+  - id: UCp4DJOI0d53HnwAjDNR1kMA
+    title: J의 여행로그(J Trip log)
+    subscribers: 16800
+    discovered_by: 여행 브이로그
+  - id: UCdA6fmybDpeEXANlh-xny5Q
+    title: 외교부 해외안전여행
+    subscribers: 12000
+    discovered_by: 해외여행
+  - id: UCAGfAsauGPEXRgI8QfXPYJw
+    title: 해외안전여행 TV
+    subscribers: 6250
+    discovered_by: 해외여행
+  - id: UCt51cinfjae_b1g7U9mvzFg
+    title: 여행하는 씽아
+    subscribers: 2310
+    discovered_by: 국내여행
+  - id: UCEEnXVSFK7fg-x2lJa7J_nA
+    title: 아름다운 국내여행 [Beautiful Korea Tour]
+    subscribers: 1930
+    discovered_by: 국내여행
+  - id: UC7ITVv5UuZQnvjM3SgJHRqg
+    title: 여행로그
+    subscribers: 1390
+    discovered_by: 여행 브이로그
+  tech:
+  - id: UCdUcjkyZtf-1WJyPPiETF1g
+    title: ITSub잇섭
+    subscribers: 2830000
+    discovered_by: IT 리뷰
+  - id: UCJTmYzrlVk_GpnwJH5wYNwQ
+    title: MR엠알
+    subscribers: 1130000
+    discovered_by: IT 리뷰
+  - id: UCFX6adXoyQKxft933NB3rmA
+    title: 테크몽 Techmong
+    subscribers: 939000
+    discovered_by: IT 리뷰
+  - id: UCB11SAf7WSN4GrCquKoOHrw
+    title: 주연 ZUYONI
+    subscribers: 820000
+    discovered_by: IT 리뷰
+  - id: UC_0oo0GPlDUU88ubLDnJkSQ
+    title: UNDERkg
+    subscribers: 816000
+    discovered_by: IT 리뷰
+  - id: UCX0Qk4QtPOlEwBmsbIG4vOg
+    title: 리뷰야놀자
+    subscribers: 744000
+    discovered_by: 스마트폰 리뷰
+  - id: UCVIZWeFmvOhCjJy4tZqertw
+    title: 최마태의 POST IT
+    subscribers: 375000
+    discovered_by: IT 리뷰
+  - id: UClVd_-HFVUm1KGsXa8FvUFQ
+    title: 리뷰머신
+    subscribers: 202000
+    discovered_by: 노트북 추천
+  - id: UC75nkVGVnnapAD9Sc8VQnlA
+    title: 사야되나? - IT도 패션이다
+    subscribers: 185000
+    discovered_by: IT 리뷰
+  - id: UCLJVJoj_SeZBs34w6V-etPg
+    title: JN테크리뷰
+    subscribers: 75200
+    discovered_by: 노트북 추천
+  - id: UCvFhJjq2S7onUjiVmM4c5Bw
+    title: KEVIN 케빈 - IT리뷰
+    subscribers: 53000
+    discovered_by: IT 리뷰
+  - id: UCnnRyMpraQ61XwdUnDPIKPQ
+    title: 가성비 덕후 만두얏
+    subscribers: 43200
+    discovered_by: 노트북 추천
+  - id: UCDHgdvvp6tHNcl3kNV4YPqQ
+    title: 김타치
+    subscribers: 32200
+    discovered_by: 노트북 추천
+  - id: UCvG-mykOeM6uwBOehcZYCAA
+    title: 상상이상 IT 꿀팁 & 핫딜
+    subscribers: 25800
+    discovered_by: IT 리뷰
+  - id: UCs3b_l7IeeVSPqfW4jPnEDw
+    title: 올댓리뷰
+    subscribers: 24100
+    discovered_by: 스마트폰 리뷰
+  - id: UCcZ7McBJAPWYTgTWr60xBmA
+    title: 리뷰it
+    subscribers: 12000
+    discovered_by: IT 리뷰
+  - id: UCbs9hN0X8fq76lLsW2TTzNg
+    title: 오늘의할인
+    subscribers: 10700
+    discovered_by: 노트북 추천
+  aicoding:
+  - id: UCQNE2JmbasNYbjGAcuBiRRg
+    title: 조코딩 JoCoding
+    subscribers: 746000
+    discovered_by: 개발자 코딩
+  - id: UCSLrpBAzr-ROVGHQ5EmxnUg
+    title: 코딩애플
+    subscribers: 455000
+    discovered_by: 개발자 코딩
+  - id: UCdNqxwnqpXJpMt47WE7Bwwg
+    title: 커리어해커 알렉스
+    subscribers: 196000
+    discovered_by: 개발자 코딩
+  - id: UCfBvs0ZJdTA43NQrnI9imGA
+    title: 코딩알려주는누나
+    subscribers: 134000
+    discovered_by: 바이브코딩
+  - id: UCDLlMjELbrJdETmSiAB68AA
+    title: 시민개발자 구씨
+    subscribers: 56700
+    discovered_by: 개발자 코딩
+  - id: UCDq9_N34UnlMSlFB4kWE15w
+    title: 이동훈의 루트AI
+    subscribers: 31900
+    discovered_by: AI 활용
+  - id: UCKdKdx5-eLZUmAgsdvxkKiA
+    title: 양실장의 바이브코딩대학
+    subscribers: 23900
+    discovered_by: 바이브코딩
+  - id: UCWRWkyubH0HCnjLsXoCCLzQ
+    title: 라핀 | AI 자동화 바이브코딩
+    subscribers: 20600
+    discovered_by: 바이브코딩
+  - id: UCRpOx7jjy2PuuVeRrYKbdCA
+    title: 코딩하는기술사
+    subscribers: 19000
+    discovered_by: 개발자 코딩
+  - id: UCz9n4yRsYYryRjrSCK0-YWA
+    title: 오준석의 생존코딩
+    subscribers: 13900
+    discovered_by: 개발자 코딩
+  - id: UCIGciESvBCUvbC10vJkuD6w
+    title: 서울대 한범 교수의 AI 바이브코딩
+    subscribers: 11000
+    discovered_by: 바이브코딩
+  - id: UCY4W_6R3mnN8LDr3IjQOhFw
+    title: 가장 쉬운 AI 활용 개발 with Boaz
+    subscribers: 10800
+    discovered_by: AI 활용
+  - id: UC6xro-nRXlpa4A5UoeFKUDA
+    title: 바이브마피아 | AI Native 엔지니어
+    subscribers: 10500
+    discovered_by: 바이브코딩
+  vlog:
+  - id: UCyG7zAV_2JlPnxhwDxZN6sA
+    title: 지현꿍
+    subscribers: 3000000
+    discovered_by: 자취 브이로그
+  - id: UCSn90DAxCF3yRs6mFK0-8TA
+    title: ondo온도
+    subscribers: 1220000
+    discovered_by: 일상 브이로그
+  - id: UCrailkufB1aKrKc6l1osRgw
+    title: 냥숲nyangsoop
+    subscribers: 1200000
+    discovered_by: 일상 브이로그
+  - id: UCjZhSJP6ridQzH75e48wyIQ
+    title: hongsi 홍시
+    subscribers: 618000
+    discovered_by: 자취 브이로그
+  - id: UCOfPBjrT7sFiBe3Bl2e9bEA
+    title: 캘리쌤 브이로그 영어
+    subscribers: 472000
+    discovered_by: 일상 브이로그
+  - id: UCUeVdhdq6tF4wIojud9PMdw
+    title: 이욜 eyol
+    subscribers: 355000
+    discovered_by: 자취 브이로그
+  - id: UCDBr5TfaSHWVnifL2uy2bEw
+    title: 유부남
+    subscribers: 300000
+    discovered_by: 자취 브이로그
+  - id: UC5duyhoJ4mXbZff6elnmvTw
+    title: 하누
+    subscribers: 243000
+    discovered_by: 일상 브이로그
+  - id: UC9_IITLXM0_8zeMCa5n7m_g
+    title: 동세네DSN
+    subscribers: 121000
+    discovered_by: 자취 브이로그
+  - id: UCFCWWHCdqpm1aMuOmwQBuCw
+    title: 개횬 gaehyon
+    subscribers: 105000
+    discovered_by: 자취 브이로그
+  - id: UCkBLIp5uxBkwSsxpNTnoXxg
+    title: 차차 CHA!
+    subscribers: 83900
+    discovered_by: 자취 브이로그
+  - id: UCyWH9r_JUHM2FKnVmuvSoEA
+    title: Kim’s 일본 일상 vlog
+    subscribers: 72500
+    discovered_by: 일상 브이로그
+  - id: UCzzt6bFEBcy-CoZeFvTSq0A
+    title: 고수 평범해도 괜찮아 GOSOO Vlog
+    subscribers: 47500
+    discovered_by: 일상 브이로그
+  - id: UCKMrNCqrjZRKFVmebDieJeQ
+    title: 우리두리 브이로그
+    subscribers: 24500
+    discovered_by: 일상 브이로그
+  - id: UCiJs5RqOTQl_voqzFFbG6qQ
+    title: 심심해서 하는 브이로그
+    subscribers: 18200
+    discovered_by: 일상 브이로그
+  - id: UCYIOsXZKBCP_2L50v2fN_ww
+    title: 세콩맘브이로그 luvmy3kong
+    subscribers: 5090
+    discovered_by: 일상 브이로그
+  - id: UCK4ZzlJn1N-3jVTtG71jX0g
+    title: 발렌티나 브이로그
+    subscribers: 2860
+    discovered_by: 일상 브이로그
+  fitness:
+  - id: UCq7bR6RxqqOx8cptc1-0AVQ
+    title: Allblanc TV
+    subscribers: 4700000
+    discovered_by: 홈트레이닝
+  - id: UC4yq3FWEWqMvFNFBsV3gbKQ
+    title: 힙으뜸
+    subscribers: 1820000
+    discovered_by: 홈트레이닝
+  - id: UCKEspD9kts44sG5E80kQcjQ
+    title: 이지은 다이어트 Jiny diet
+    subscribers: 1620000
+    discovered_by: 홈트레이닝
+  - id: UC3hRpIQ4x5niJDwjajQSVPg
+    title: 핏블리 FITVELY
+    subscribers: 1420000
+    discovered_by: 헬스 운동
+  - id: UCHVuoHrPWWTD67Ln1jV4Bew
+    title: 흥둥이
+    subscribers: 1420000
+    discovered_by: 홈트레이닝
+  - id: UCF97u_Y5C3FxAcD0nn1DCKQ
+    title: 보통사람을 위한 운동채널
+    subscribers: 1090000
+    discovered_by: 헬스 운동
+  - id: UCfDkQiPchwM0F2SkHWl5JYQ
+    title: 빅씨스 Bigsis
+    subscribers: 1080000
+    discovered_by: 홈트레이닝
+  - id: UCRGZCFuFCwp2D_YKByrqRfw
+    title: 에이핏 afit
+    subscribers: 888000
+    discovered_by: 홈트레이닝
+  - id: UCxWRe2A7LMTEwMBErR4DkgQ
+    title: 삐약스핏 [살빼주는 병맛 다이어트채널]
+    subscribers: 869000
+    discovered_by: 홈트레이닝
+  - id: UCygs-_iDpCJOnhuCZibK7JQ
+    title: 흑자헬스 SurplusHealth
+    subscribers: 762000
+    discovered_by: 헬스 운동
+  - id: UCRrZ5RYIalHLiHq5ftzxM6A
+    title: 빵느
+    subscribers: 752000
+    discovered_by: 홈트레이닝
+  - id: UCo_-ny9SP5Pbz8KM1KKchbA
+    title: 세계적으로 유명한 운동 정보
+    subscribers: 522000
+    discovered_by: 헬스 운동
+  - id: UCDVQ0yDp7Bu-BxEfelTHL8g
+    title: 바벨라토르 홈트레이닝 BARBELLATOR
+    subscribers: 417000
+    discovered_by: 홈트레이닝
+  - id: UCK2YrOMgAbsAraGrWyyAvdw
+    title: 헬마드 (헬스 건강 정보)
+    subscribers: 389000
+    discovered_by: 헬스 운동
+  - id: UCc5mVNF4R6ywMqbty91J0rQ
+    title: 김명섭의 헬스교실
+    subscribers: 385000
+    discovered_by: 헬스 운동
+  - id: UC2CmamCD9CTWs4vo_t_gt9Q
+    title: 다이어트 해커 이서울
+    subscribers: 292000
+    discovered_by: 다이어트
+  - id: UCcMSJmR90Y_McofszAVxjAQ
+    title: 김성환헬스유튜브 (Kim Seong Hwan)
+    subscribers: 264000
+    discovered_by: 헬스 운동

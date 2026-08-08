@@ -1,0 +1,19 @@
+# 수동 차단 리스트 (SPEC FR-10, D12)
+#
+# 여기 등재된 채널/영상은 랭킹과 노출에서 제외한다.
+# 코드 수정 없이 이 파일만 고쳐 갱신할 수 있어야 한다.
+#
+# 등재 사유는 반드시 남긴다 — 나중에 해제 판단의 근거가 된다.
+# 채널 소유자의 제외 요청(opt-out)도 여기에 등재한다 (D12).
+
+version: 1
+
+channels: []
+# 예시:
+#   - id: UCxxxxxxxxxxxxxxxxxxxxxx
+#     reason: 소유자 opt-out 요청 (2026-08-08)
+
+videos: []
+# 예시:
+#   - id: dQw4w9WgXcQ
+#     reason: 낚시성 제목
