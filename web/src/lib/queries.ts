@@ -1,4 +1,4 @@
-import { supabase } from "./supabase";
+import { getSupabase } from "./supabase";
 import type {
   BoardEntry,
   BoardId,
@@ -23,6 +23,9 @@ const BOARD_LIMIT = 20;
 const CHANNEL_SERIES_DAYS = 30;
 
 export async function fetchCategories(): Promise<Category[]> {
+  const supabase = getSupabase();
+  if (!supabase) return [];
+
   const { data, error } = await supabase
     .from("ut_categories")
     .select("id,name,parent,tag")
@@ -40,6 +43,9 @@ export async function fetchBoards(categoryId: string, boards: BoardId[]): Promis
 
 export async function fetchBoard(categoryId: string, board: BoardId): Promise<BoardResult> {
   const empty: BoardResult = { board, entries: [], computedAt: null, error: null };
+
+  const supabase = getSupabase();
+  if (!supabase) return { ...empty, error: "서비스 설정이 완료되지 않았습니다." };
 
   const { data, error } = await supabase
     .from("ut_trend_scores")
@@ -68,6 +74,9 @@ export async function fetchBoard(categoryId: string, board: BoardId): Promise<Bo
 type ScoreRow = { entity_id: unknown; score: unknown; rank: unknown; computed_at: unknown };
 
 async function hydrateVideos(rows: ScoreRow[], ids: string[]): Promise<BoardEntry[]> {
+  const supabase = getSupabase();
+  if (!supabase) return [];
+
   const { data: videos } = await supabase
     .from("ut_videos")
     .select("video_id,channel_id,title,thumbnail_url,published_at,is_short")
@@ -132,7 +141,8 @@ interface ChannelSummary {
 }
 
 async function fetchChannelSummaries(ids: string[]): Promise<Map<string, ChannelSummary>> {
-  if (ids.length === 0) return new Map();
+  const supabase = getSupabase();
+  if (!supabase || ids.length === 0) return new Map();
 
   const { data: channels } = await supabase
     .from("ut_channels")
@@ -173,7 +183,8 @@ async function fetchChannelSummaries(ids: string[]): Promise<Map<string, Channel
 }
 
 async function fetchLatestViewCounts(videoIds: string[]): Promise<Map<string, number>> {
-  if (videoIds.length === 0) return new Map();
+  const supabase = getSupabase();
+  if (!supabase || videoIds.length === 0) return new Map();
 
   const { data } = await supabase
     .from("ut_video_snapshots")
@@ -189,6 +200,9 @@ async function fetchLatestViewCounts(videoIds: string[]): Promise<Map<string, nu
 }
 
 export async function fetchChannelDetail(channelId: string): Promise<ChannelDetail | null> {
+  const supabase = getSupabase();
+  if (!supabase) return null;
+
   const { data: channel, error } = await supabase
     .from("ut_channels")
     .select("channel_id,title,thumbnail_url,category_ids")
@@ -227,6 +241,9 @@ export async function fetchChannelDetail(channelId: string): Promise<ChannelDeta
 }
 
 async function fetchChannelRecentVideos(channelId: string): Promise<BoardEntry[]> {
+  const supabase = getSupabase();
+  if (!supabase) return [];
+
   const { data: videos } = await supabase
     .from("ut_videos")
     .select("video_id,channel_id,title,thumbnail_url,published_at,is_short")
