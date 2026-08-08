@@ -2,6 +2,8 @@
 
 > [한국어 README](README_KO.md)
 
+**Live: https://utube-trend-tracer.vercel.app**
+
 Category-based YouTube trend discovery for Korean viewers and creators.
 
 YouTube retired its official Trending page in July 2025. There is no API that returns
@@ -78,7 +80,7 @@ managed by 30-day rolling deletion), and Vercel.
 ## Getting started
 
 ```bash
-git clone https://github.com/<owner>/utube-trend-tracer.git
+git clone https://github.com/daehyub71/utube-trend-tracer.git
 cd utube-trend-tracer
 
 # 1. Database

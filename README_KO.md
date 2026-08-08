@@ -2,6 +2,8 @@
 
 > [English README](README.md)
 
+**Live: https://utube-trend-tracer.vercel.app**
+
 카테고리별 유튜브 트렌드 발견 서비스.
 
 유튜브가 2025년 7월 공식 인기 급상승 페이지를 없앤 뒤, "요즘 음식 쪽에서 뭐가 뜨는가"를
@@ -76,7 +78,7 @@ GitHub Actions(공개 리포 무제한), Supabase(500MB, 30일 롤링 삭제로 
 ## 시작하기
 
 ```bash
-git clone https://github.com/<owner>/utube-trend-tracer.git
+git clone https://github.com/daehyub71/utube-trend-tracer.git
 cd utube-trend-tracer
 
 # 1. 데이터베이스
