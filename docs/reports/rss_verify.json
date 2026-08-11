@@ -39,7 +39,7 @@
     "ok": true,
     "entry_count": 15,
     "latest_published": "2026-07-31T04:37:34+00:00",
-    "days_since_upload": 10,
+    "days_since_upload": 11,
     "stale": false,
     "error": null
   },
@@ -50,7 +50,7 @@
     "ok": true,
     "entry_count": 15,
     "latest_published": "2026-08-09T07:00:54+00:00",
-    "days_since_upload": 1,
+    "days_since_upload": 2,
     "stale": false,
     "error": null
   },
@@ -83,7 +83,7 @@
     "ok": true,
     "entry_count": 15,
     "latest_published": "2026-08-07T08:00:33+00:00",
-    "days_since_upload": 3,
+    "days_since_upload": 4,
     "stale": false,
     "error": null
   },
@@ -94,7 +94,7 @@
     "ok": true,
     "entry_count": 15,
     "latest_published": "2026-08-09T02:00:04+00:00",
-    "days_since_upload": 1,
+    "days_since_upload": 2,
     "stale": false,
     "error": null
   },
@@ -104,7 +104,7 @@
     "parent": "food",
     "ok": true,
     "entry_count": 15,
-    "latest_published": "2026-08-10T08:00:30+00:00",
+    "latest_published": "2026-08-11T08:00:08+00:00",
     "days_since_upload": 0,
     "stale": false,
     "error": null
@@ -116,7 +116,7 @@
     "ok": true,
     "entry_count": 15,
     "latest_published": "2026-08-07T07:15:24+00:00",
-    "days_since_upload": 3,
+    "days_since_upload": 4,
     "stale": false,
     "error": null
   },
@@ -181,7 +181,7 @@
     "parent": "food",
     "ok": true,
     "entry_count": 15,
-    "latest_published": "2026-08-10T08:26:47+00:00",
+    "latest_published": "2026-08-11T05:15:21+00:00",
     "days_since_upload": 0,
     "stale": false,
     "error": null
@@ -203,7 +203,7 @@
     "parent": "travel",
     "ok": true,
     "entry_count": 15,
-    "latest_published": "2026-08-10T23:34:21+00:00",
+    "latest_published": "2026-08-11T06:15:06+00:00",
     "days_since_upload": 0,
     "stale": false,
     "error": null
@@ -237,7 +237,7 @@
     "ok": true,
     "entry_count": 15,
     "latest_published": "2026-08-02T04:30:34+00:00",
-    "days_since_upload": 8,
+    "days_since_upload": 9,
     "stale": false,
     "error": null
   },
@@ -248,7 +248,7 @@
     "ok": true,
     "entry_count": 15,
     "latest_published": "2026-08-05T08:00:22+00:00",
-    "days_since_upload": 5,
+    "days_since_upload": 6,
     "stale": false,
     "error": null
   },
@@ -270,7 +270,7 @@
     "ok": true,
     "entry_count": 15,
     "latest_published": "2026-06-28T03:15:01+00:00",
-    "days_since_upload": 43,
+    "days_since_upload": 44,
     "stale": false,
     "error": null
   },
@@ -280,7 +280,7 @@
     "parent": "travel",
     "ok": true,
     "entry_count": 15,
-    "latest_published": "2026-08-10T15:00:10+00:00",
+    "latest_published": "2026-08-11T03:00:12+00:00",
     "days_since_upload": 0,
     "stale": false,
     "error": null
@@ -292,7 +292,7 @@
     "ok": true,
     "entry_count": 15,
     "latest_published": "2026-08-05T01:30:35+00:00",
-    "days_since_upload": 5,
+    "days_since_upload": 6,
     "stale": false,
     "error": null
   },
@@ -302,7 +302,7 @@
     "parent": "travel",
     "ok": true,
     "entry_count": 15,
-    "latest_published": "2026-08-10T14:56:47+00:00",
+    "latest_published": "2026-08-11T02:25:42+00:00",
     "days_since_upload": 0,
     "stale": false,
     "error": null
@@ -325,7 +325,7 @@
     "ok": true,
     "entry_count": 15,
     "latest_published": "2026-08-03T01:51:49+00:00",
-    "days_since_upload": 7,
+    "days_since_upload": 8,
     "stale": false,
     "error": null
   },
@@ -336,7 +336,7 @@
     "ok": true,
     "entry_count": 15,
     "latest_published": "2026-08-01T02:30:14+00:00",
-    "days_since_upload": 9,
+    "days_since_upload": 10,
     "stale": false,
     "error": null
   },
@@ -347,7 +347,7 @@
     "ok": true,
     "entry_count": 15,
     "latest_published": "2026-05-31T03:24:27+00:00",
-    "days_since_upload": 71,
+    "days_since_upload": 72,
     "stale": false,
     "error": null
   },
@@ -413,7 +413,7 @@
     "ok": true,
     "entry_count": 15,
     "latest_published": "2026-08-09T04:52:00+00:00",
-    "days_since_upload": 1,
+    "days_since_upload": 2,
     "stale": false,
     "error": null
   },
@@ -435,7 +435,7 @@
     "ok": true,
     "entry_count": 15,
     "latest_published": "2026-08-07T03:55:12+00:00",
-    "days_since_upload": 3,
+    "days_since_upload": 4,
     "stale": false,
     "error": null
   },
@@ -456,7 +456,7 @@
     "parent": "tech",
     "ok": true,
     "entry_count": 15,
-    "latest_published": "2026-08-10T02:00:15+00:00",
+    "latest_published": "2026-08-11T02:00:34+00:00",
     "days_since_upload": 0,
     "stale": false,
     "error": null
@@ -479,7 +479,7 @@
     "ok": true,
     "entry_count": 15,
     "latest_published": "2026-08-10T08:00:02+00:00",
-    "days_since_upload": 0,
+    "days_since_upload": 1,
     "stale": false,
     "error": null
   },
@@ -544,8 +544,8 @@
     "parent": "tech",
     "ok": true,
     "entry_count": 15,
-    "latest_published": "2026-08-07T21:48:17+00:00",
-    "days_since_upload": 3,
+    "latest_published": "2026-08-11T05:47:26+00:00",
+    "days_since_upload": 0,
     "stale": false,
     "error": null
   },
@@ -566,7 +566,7 @@
     "parent": "aicoding",
     "ok": true,
     "entry_count": 15,
-    "latest_published": "2026-08-10T13:33:40+00:00",
+    "latest_published": "2026-08-11T06:00:15+00:00",
     "days_since_upload": 0,
     "stale": false,
     "error": null
@@ -589,7 +589,7 @@
     "ok": true,
     "entry_count": 15,
     "latest_published": "2026-07-30T07:25:32+00:00",
-    "days_since_upload": 11,
+    "days_since_upload": 12,
     "stale": false,
     "error": null
   },
@@ -600,7 +600,7 @@
     "ok": true,
     "entry_count": 15,
     "latest_published": "2026-08-10T07:30:33+00:00",
-    "days_since_upload": 0,
+    "days_since_upload": 1,
     "stale": false,
     "error": null
   },
@@ -611,7 +611,7 @@
     "ok": true,
     "entry_count": 15,
     "latest_published": "2026-08-08T05:00:17+00:00",
-    "days_since_upload": 2,
+    "days_since_upload": 3,
     "stale": false,
     "error": null
   },
@@ -644,7 +644,7 @@
     "ok": true,
     "entry_count": 15,
     "latest_published": "2026-07-31T03:30:02+00:00",
-    "days_since_upload": 10,
+    "days_since_upload": 11,
     "stale": false,
     "error": null
   },
@@ -655,7 +655,7 @@
     "ok": true,
     "entry_count": 15,
     "latest_published": "2026-08-09T02:47:59+00:00",
-    "days_since_upload": 1,
+    "days_since_upload": 2,
     "stale": false,
     "error": null
   },
@@ -721,7 +721,7 @@
     "ok": true,
     "entry_count": 15,
     "latest_published": "2026-08-05T08:00:04+00:00",
-    "days_since_upload": 5,
+    "days_since_upload": 6,
     "stale": false,
     "error": null
   },
@@ -732,7 +732,7 @@
     "ok": true,
     "entry_count": 15,
     "latest_published": "2026-07-30T02:00:29+00:00",
-    "days_since_upload": 11,
+    "days_since_upload": 12,
     "stale": false,
     "error": null
   },
@@ -776,7 +776,7 @@
     "ok": true,
     "entry_count": 15,
     "latest_published": "2026-08-09T04:45:09+00:00",
-    "days_since_upload": 1,
+    "days_since_upload": 2,
     "stale": false,
     "error": null
   },
@@ -831,7 +831,7 @@
     "ok": true,
     "entry_count": 15,
     "latest_published": "2026-08-08T02:45:13+00:00",
-    "days_since_upload": 2,
+    "days_since_upload": 3,
     "stale": false,
     "error": null
   },
@@ -842,7 +842,7 @@
     "ok": true,
     "entry_count": 15,
     "latest_published": "2026-08-10T02:10:10+00:00",
-    "days_since_upload": 0,
+    "days_since_upload": 1,
     "stale": false,
     "error": null
   },
@@ -919,7 +919,7 @@
     "ok": true,
     "entry_count": 15,
     "latest_published": "2026-08-06T08:00:12+00:00",
-    "days_since_upload": 4,
+    "days_since_upload": 5,
     "stale": false,
     "error": null
   },
@@ -929,7 +929,7 @@
     "parent": "fitness",
     "ok": true,
     "entry_count": 15,
-    "latest_published": "2026-08-10T03:00:10+00:00",
+    "latest_published": "2026-08-11T03:00:08+00:00",
     "days_since_upload": 0,
     "stale": false,
     "error": null
@@ -984,7 +984,7 @@
     "parent": "fitness",
     "ok": true,
     "entry_count": 15,
-    "latest_published": "2026-08-10T14:18:26+00:00",
+    "latest_published": "2026-08-11T05:20:51+00:00",
     "days_since_upload": 0,
     "stale": false,
     "error": null
@@ -995,7 +995,7 @@
     "parent": "fitness",
     "ok": true,
     "entry_count": 15,
-    "latest_published": "2026-08-10T08:00:14+00:00",
+    "latest_published": "2026-08-11T02:00:33+00:00",
     "days_since_upload": 0,
     "stale": false,
     "error": null
@@ -1062,7 +1062,7 @@
     "ok": true,
     "entry_count": 15,
     "latest_published": "2026-08-10T06:41:09+00:00",
-    "days_since_upload": 0,
+    "days_since_upload": 1,
     "stale": false,
     "error": null
   },
@@ -1072,7 +1072,7 @@
     "parent": "fitness",
     "ok": true,
     "entry_count": 15,
-    "latest_published": "2026-08-10T04:00:17+00:00",
+    "latest_published": "2026-08-11T04:00:22+00:00",
     "days_since_upload": 0,
     "stale": false,
     "error": null
