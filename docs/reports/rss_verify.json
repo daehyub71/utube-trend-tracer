@@ -27,8 +27,8 @@
     "parent": "food",
     "ok": true,
     "entry_count": 15,
-    "latest_published": "2026-08-09T22:00:25+00:00",
-    "days_since_upload": 1,
+    "latest_published": "2026-08-11T22:00:38+00:00",
+    "days_since_upload": 0,
     "stale": false,
     "error": null
   },
@@ -291,8 +291,8 @@
     "parent": "travel",
     "ok": true,
     "entry_count": 15,
-    "latest_published": "2026-08-05T01:30:35+00:00",
-    "days_since_upload": 6,
+    "latest_published": "2026-08-12T01:30:07+00:00",
+    "days_since_upload": 0,
     "stale": false,
     "error": null
   },
@@ -456,7 +456,7 @@
     "parent": "tech",
     "ok": true,
     "entry_count": 15,
-    "latest_published": "2026-08-11T02:00:34+00:00",
+    "latest_published": "2026-08-12T01:05:10+00:00",
     "days_since_upload": 0,
     "stale": false,
     "error": null
@@ -522,7 +522,7 @@
     "parent": "tech",
     "ok": true,
     "entry_count": 15,
-    "latest_published": "2026-08-10T22:06:38+00:00",
+    "latest_published": "2026-08-12T00:00:32+00:00",
     "days_since_upload": 0,
     "stale": false,
     "error": null
@@ -688,7 +688,7 @@
     "ok": true,
     "entry_count": 15,
     "latest_published": "2026-05-10T00:00:07+00:00",
-    "days_since_upload": 93,
+    "days_since_upload": 94,
     "stale": true,
     "error": null
   },
@@ -885,8 +885,8 @@
     "parent": "vlog",
     "ok": true,
     "entry_count": 15,
-    "latest_published": "2026-08-06T22:45:07+00:00",
-    "days_since_upload": 4,
+    "latest_published": "2026-08-11T23:15:17+00:00",
+    "days_since_upload": 0,
     "stale": false,
     "error": null
   },
@@ -941,7 +941,7 @@
     "ok": true,
     "entry_count": 15,
     "latest_published": "2026-08-06T01:00:16+00:00",
-    "days_since_upload": 5,
+    "days_since_upload": 6,
     "stale": false,
     "error": null
   },
@@ -995,7 +995,7 @@
     "parent": "fitness",
     "ok": true,
     "entry_count": 15,
-    "latest_published": "2026-08-11T14:09:00+00:00",
+    "latest_published": "2026-08-11T02:00:33+00:00",
     "days_since_upload": 0,
     "stale": false,
     "error": null
