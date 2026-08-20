@@ -27,7 +27,7 @@
     "parent": "food",
     "ok": true,
     "entry_count": 15,
-    "latest_published": "2026-08-18T22:00:28+00:00",
+    "latest_published": "2026-08-19T22:00:37+00:00",
     "days_since_upload": 0,
     "stale": false,
     "error": null
@@ -159,7 +159,7 @@
     "parent": "food",
     "ok": true,
     "entry_count": 15,
-    "latest_published": "2026-08-19T11:15:01+00:00",
+    "latest_published": "2026-08-20T01:00:08+00:00",
     "days_since_upload": 0,
     "stale": false,
     "error": null
@@ -181,7 +181,7 @@
     "parent": "food",
     "ok": true,
     "entry_count": 15,
-    "latest_published": "2026-08-19T11:56:04+00:00",
+    "latest_published": "2026-08-19T05:55:06+00:00",
     "days_since_upload": 0,
     "stale": false,
     "error": null
@@ -688,7 +688,7 @@
     "ok": true,
     "entry_count": 15,
     "latest_published": "2026-05-10T00:00:07+00:00",
-    "days_since_upload": 101,
+    "days_since_upload": 102,
     "stale": true,
     "error": null
   },
@@ -699,7 +699,7 @@
     "ok": true,
     "entry_count": 15,
     "latest_published": "2026-08-14T16:48:48+00:00",
-    "days_since_upload": 4,
+    "days_since_upload": 5,
     "stale": false,
     "error": null
   },
@@ -875,7 +875,7 @@
     "ok": true,
     "entry_count": 15,
     "latest_published": "2026-08-18T00:00:27+00:00",
-    "days_since_upload": 1,
+    "days_since_upload": 2,
     "stale": false,
     "error": null
   },
@@ -885,7 +885,7 @@
     "parent": "vlog",
     "ok": true,
     "entry_count": 15,
-    "latest_published": "2026-08-18T22:45:05+00:00",
+    "latest_published": "2026-08-19T23:15:08+00:00",
     "days_since_upload": 0,
     "stale": false,
     "error": null
@@ -941,7 +941,7 @@
     "ok": true,
     "entry_count": 15,
     "latest_published": "2026-08-14T01:00:07+00:00",
-    "days_since_upload": 5,
+    "days_since_upload": 6,
     "stale": false,
     "error": null
   },
@@ -996,7 +996,7 @@
     "ok": true,
     "entry_count": 15,
     "latest_published": "2026-08-18T22:00:09+00:00",
-    "days_since_upload": 0,
+    "days_since_upload": 1,
     "stale": false,
     "error": null
   },
