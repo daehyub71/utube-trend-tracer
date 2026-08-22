@@ -27,8 +27,8 @@
     "parent": "food",
     "ok": true,
     "entry_count": 15,
-    "latest_published": "2026-08-19T22:00:37+00:00",
-    "days_since_upload": 1,
+    "latest_published": "2026-08-21T22:00:02+00:00",
+    "days_since_upload": 0,
     "stale": false,
     "error": null
   },
@@ -71,7 +71,7 @@
     "parent": "food",
     "ok": true,
     "entry_count": 15,
-    "latest_published": "2026-08-20T17:16:47+00:00",
+    "latest_published": "2026-08-21T18:05:18+00:00",
     "days_since_upload": 0,
     "stale": false,
     "error": null
@@ -159,8 +159,8 @@
     "parent": "food",
     "ok": true,
     "entry_count": 15,
-    "latest_published": "2026-08-20T10:20:05+00:00",
-    "days_since_upload": 1,
+    "latest_published": "2026-08-22T01:00:00+00:00",
+    "days_since_upload": 0,
     "stale": false,
     "error": null
   },
@@ -223,12 +223,12 @@
     "channel_id": "UCugz3-UlkX2P77PtK1Ju0RA",
     "title": "쏘이Soy The World",
     "parent": "travel",
-    "ok": false,
-    "entry_count": 0,
-    "latest_published": null,
-    "days_since_upload": null,
+    "ok": true,
+    "entry_count": 15,
+    "latest_published": "2026-08-20T11:50:24+00:00",
+    "days_since_upload": 1,
     "stale": false,
-    "error": "요청 실패: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
+    "error": null
   },
   {
     "channel_id": "UCOt5yWZBDjI_aOM3efYtjnQ",
@@ -258,7 +258,7 @@
     "parent": "travel",
     "ok": true,
     "entry_count": 15,
-    "latest_published": "2026-08-21T11:15:31+00:00",
+    "latest_published": "2026-08-21T23:30:26+00:00",
     "days_since_upload": 0,
     "stale": false,
     "error": null
@@ -278,12 +278,12 @@
     "channel_id": "UCTD4xCbpjFoy6NwIEYCCykA",
     "title": "똑똑한 여행 프로젝트, 똑프",
     "parent": "travel",
-    "ok": false,
-    "entry_count": 0,
-    "latest_published": null,
-    "days_since_upload": null,
+    "ok": true,
+    "entry_count": 15,
+    "latest_published": "2026-08-21T10:15:27+00:00",
+    "days_since_upload": 0,
     "stale": false,
-    "error": "요청 실패: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
+    "error": null
   },
   {
     "channel_id": "UCuOscUJC9-vQPMpHd51WrlQ",
@@ -509,12 +509,12 @@
     "channel_id": "UCDHgdvvp6tHNcl3kNV4YPqQ",
     "title": "김타치",
     "parent": "tech",
-    "ok": false,
-    "entry_count": 0,
-    "latest_published": null,
-    "days_since_upload": null,
+    "ok": true,
+    "entry_count": 15,
+    "latest_published": "2026-08-21T10:00:34+00:00",
+    "days_since_upload": 0,
     "stale": false,
-    "error": "요청 실패: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
+    "error": null
   },
   {
     "channel_id": "UCvG-mykOeM6uwBOehcZYCAA",
@@ -597,12 +597,12 @@
     "channel_id": "UCfBvs0ZJdTA43NQrnI9imGA",
     "title": "코딩알려주는누나",
     "parent": "aicoding",
-    "ok": false,
-    "entry_count": 0,
-    "latest_published": null,
-    "days_since_upload": null,
+    "ok": true,
+    "entry_count": 15,
+    "latest_published": "2026-08-20T07:42:22+00:00",
+    "days_since_upload": 1,
     "stale": false,
-    "error": "요청 실패: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
+    "error": null
   },
   {
     "channel_id": "UCDLlMjELbrJdETmSiAB68AA",
@@ -619,12 +619,12 @@
     "channel_id": "UCDq9_N34UnlMSlFB4kWE15w",
     "title": "이동훈의 루트AI",
     "parent": "aicoding",
-    "ok": false,
-    "entry_count": 0,
-    "latest_published": null,
-    "days_since_upload": null,
+    "ok": true,
+    "entry_count": 15,
+    "latest_published": "2026-08-12T10:00:10+00:00",
+    "days_since_upload": 9,
     "stale": false,
-    "error": "요청 실패: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
+    "error": null
   },
   {
     "channel_id": "UCKdKdx5-eLZUmAgsdvxkKiA",
@@ -685,12 +685,12 @@
     "channel_id": "UCY4W_6R3mnN8LDr3IjQOhFw",
     "title": "가장 쉬운 AI 활용 개발 with Boaz",
     "parent": "aicoding",
-    "ok": false,
-    "entry_count": 0,
-    "latest_published": null,
-    "days_since_upload": null,
-    "stale": false,
-    "error": "요청 실패: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
+    "ok": true,
+    "entry_count": 15,
+    "latest_published": "2026-05-10T00:00:07+00:00",
+    "days_since_upload": 104,
+    "stale": true,
+    "error": null
   },
   {
     "channel_id": "UC6xro-nRXlpa4A5UoeFKUDA",
@@ -699,7 +699,7 @@
     "ok": true,
     "entry_count": 15,
     "latest_published": "2026-08-14T16:48:48+00:00",
-    "days_since_upload": 6,
+    "days_since_upload": 7,
     "stale": false,
     "error": null
   },
@@ -776,7 +776,7 @@
     "ok": true,
     "entry_count": 15,
     "latest_published": "2026-08-20T23:30:15+00:00",
-    "days_since_upload": 0,
+    "days_since_upload": 1,
     "stale": false,
     "error": null
   },
@@ -874,8 +874,8 @@
     "parent": "vlog",
     "ok": true,
     "entry_count": 15,
-    "latest_published": "2026-08-18T00:00:27+00:00",
-    "days_since_upload": 3,
+    "latest_published": "2026-08-22T00:00:26+00:00",
+    "days_since_upload": 0,
     "stale": false,
     "error": null
   },
@@ -886,7 +886,7 @@
     "ok": true,
     "entry_count": 15,
     "latest_published": "2026-08-19T23:15:08+00:00",
-    "days_since_upload": 1,
+    "days_since_upload": 2,
     "stale": false,
     "error": null
   },
@@ -916,12 +916,12 @@
     "channel_id": "UCKEspD9kts44sG5E80kQcjQ",
     "title": "이지은 다이어트 Jiny diet",
     "parent": "fitness",
-    "ok": false,
-    "entry_count": 0,
-    "latest_published": null,
-    "days_since_upload": null,
+    "ok": true,
+    "entry_count": 15,
+    "latest_published": "2026-08-20T23:00:38+00:00",
+    "days_since_upload": 1,
     "stale": false,
-    "error": "요청 실패: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
+    "error": null
   },
   {
     "channel_id": "UC3hRpIQ4x5niJDwjajQSVPg",
@@ -996,7 +996,7 @@
     "ok": true,
     "entry_count": 15,
     "latest_published": "2026-08-20T22:00:12+00:00",
-    "days_since_upload": 0,
+    "days_since_upload": 1,
     "stale": false,
     "error": null
   },
