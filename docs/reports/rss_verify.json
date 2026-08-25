@@ -27,8 +27,8 @@
     "parent": "food",
     "ok": true,
     "entry_count": 15,
-    "latest_published": "2026-08-22T22:25:23+00:00",
-    "days_since_upload": 1,
+    "latest_published": "2026-08-24T22:00:38+00:00",
+    "days_since_upload": 0,
     "stale": false,
     "error": null
   },
@@ -71,7 +71,7 @@
     "parent": "food",
     "ok": true,
     "entry_count": 15,
-    "latest_published": "2026-08-23T17:50:18+00:00",
+    "latest_published": "2026-08-24T17:49:21+00:00",
     "days_since_upload": 0,
     "stale": false,
     "error": null
@@ -181,8 +181,8 @@
     "parent": "food",
     "ok": true,
     "entry_count": 15,
-    "latest_published": "2026-08-24T14:22:25+00:00",
-    "days_since_upload": 0,
+    "latest_published": "2026-08-24T00:36:50+00:00",
+    "days_since_upload": 1,
     "stale": false,
     "error": null
   },
@@ -303,7 +303,7 @@
     "ok": true,
     "entry_count": 15,
     "latest_published": "2026-08-24T00:18:08+00:00",
-    "days_since_upload": 0,
+    "days_since_upload": 1,
     "stale": false,
     "error": null
   },
@@ -522,7 +522,7 @@
     "parent": "tech",
     "ok": true,
     "entry_count": 15,
-    "latest_published": "2026-08-24T13:47:44+00:00",
+    "latest_published": "2026-08-24T20:00:34+00:00",
     "days_since_upload": 0,
     "stale": false,
     "error": null
@@ -654,7 +654,7 @@
     "parent": "aicoding",
     "ok": true,
     "entry_count": 15,
-    "latest_published": "2026-08-24T02:04:09+00:00",
+    "latest_published": "2026-08-24T23:54:15+00:00",
     "days_since_upload": 0,
     "stale": false,
     "error": null
@@ -688,7 +688,7 @@
     "ok": true,
     "entry_count": 15,
     "latest_published": "2026-05-10T00:00:07+00:00",
-    "days_since_upload": 106,
+    "days_since_upload": 107,
     "stale": true,
     "error": null
   },
@@ -699,7 +699,7 @@
     "ok": true,
     "entry_count": 15,
     "latest_published": "2026-08-14T16:48:48+00:00",
-    "days_since_upload": 9,
+    "days_since_upload": 10,
     "stale": false,
     "error": null
   },
@@ -875,7 +875,7 @@
     "ok": true,
     "entry_count": 15,
     "latest_published": "2026-08-22T00:00:26+00:00",
-    "days_since_upload": 2,
+    "days_since_upload": 3,
     "stale": false,
     "error": null
   },
@@ -885,8 +885,8 @@
     "parent": "vlog",
     "ok": true,
     "entry_count": 15,
-    "latest_published": "2026-08-22T23:45:30+00:00",
-    "days_since_upload": 1,
+    "latest_published": "2026-08-24T23:45:31+00:00",
+    "days_since_upload": 0,
     "stale": false,
     "error": null
   },
@@ -995,7 +995,7 @@
     "parent": "fitness",
     "ok": true,
     "entry_count": 15,
-    "latest_published": "2026-08-24T13:26:08+00:00",
+    "latest_published": "2026-08-24T22:00:30+00:00",
     "days_since_upload": 0,
     "stale": false,
     "error": null
