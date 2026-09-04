@@ -6,7 +6,7 @@
     "ok": true,
     "entry_count": 15,
     "latest_published": "2026-08-18T12:00:25+00:00",
-    "days_since_upload": 16,
+    "days_since_upload": 17,
     "stale": false,
     "error": null
   },
@@ -16,7 +16,7 @@
     "parent": "food",
     "ok": true,
     "entry_count": 15,
-    "latest_published": "2026-09-03T08:03:37+00:00",
+    "latest_published": "2026-09-04T11:03:48+00:00",
     "days_since_upload": 0,
     "stale": false,
     "error": null
@@ -38,8 +38,8 @@
     "parent": "food",
     "ok": true,
     "entry_count": 15,
-    "latest_published": "2026-09-02T12:59:18+00:00",
-    "days_since_upload": 1,
+    "latest_published": "2026-09-04T11:00:42+00:00",
+    "days_since_upload": 0,
     "stale": false,
     "error": null
   },
@@ -50,7 +50,7 @@
     "ok": true,
     "entry_count": 15,
     "latest_published": "2026-09-03T08:56:54+00:00",
-    "days_since_upload": 0,
+    "days_since_upload": 1,
     "stale": false,
     "error": null
   },
@@ -60,8 +60,8 @@
     "parent": "food",
     "ok": true,
     "entry_count": 15,
-    "latest_published": "2026-09-01T10:00:32+00:00",
-    "days_since_upload": 2,
+    "latest_published": "2026-09-04T08:30:36+00:00",
+    "days_since_upload": 0,
     "stale": false,
     "error": null
   },
@@ -82,8 +82,8 @@
     "parent": "food",
     "ok": true,
     "entry_count": 15,
-    "latest_published": "2026-08-28T08:00:04+00:00",
-    "days_since_upload": 6,
+    "latest_published": "2026-09-04T08:00:14+00:00",
+    "days_since_upload": 0,
     "stale": false,
     "error": null
   },
@@ -102,12 +102,12 @@
     "channel_id": "UCnMJ4zTwsDWHY1cdzHvcy0Q",
     "title": "요리고수",
     "parent": "food",
-    "ok": false,
-    "entry_count": 0,
-    "latest_published": null,
-    "days_since_upload": null,
+    "ok": true,
+    "entry_count": 15,
+    "latest_published": "2026-09-04T08:00:30+00:00",
+    "days_since_upload": 0,
     "stale": false,
-    "error": "HTTP 404"
+    "error": null
   },
   {
     "channel_id": "UCmufNhhBlfucIlTBofPxNpQ",
@@ -116,7 +116,7 @@
     "ok": true,
     "entry_count": 15,
     "latest_published": "2026-09-02T07:15:17+00:00",
-    "days_since_upload": 1,
+    "days_since_upload": 2,
     "stale": false,
     "error": null
   },
@@ -138,7 +138,7 @@
     "ok": true,
     "entry_count": 15,
     "latest_published": "2026-09-02T07:22:46+00:00",
-    "days_since_upload": 1,
+    "days_since_upload": 2,
     "stale": false,
     "error": null
   },
@@ -149,7 +149,7 @@
     "ok": true,
     "entry_count": 15,
     "latest_published": "2026-08-31T12:18:17+00:00",
-    "days_since_upload": 3,
+    "days_since_upload": 4,
     "stale": false,
     "error": null
   },
@@ -159,7 +159,7 @@
     "parent": "food",
     "ok": true,
     "entry_count": 15,
-    "latest_published": "2026-09-04T01:00:13+00:00",
+    "latest_published": "2026-09-04T10:20:01+00:00",
     "days_since_upload": 0,
     "stale": false,
     "error": null
@@ -171,7 +171,7 @@
     "ok": true,
     "entry_count": 15,
     "latest_published": "2026-08-30T08:00:23+00:00",
-    "days_since_upload": 4,
+    "days_since_upload": 5,
     "stale": false,
     "error": null
   },
@@ -179,12 +179,12 @@
     "channel_id": "UCmlNL48ZaUI7F-FdQdPxFTw",
     "title": "라라먹방 Rara mukbang ",
     "parent": "food",
-    "ok": false,
-    "entry_count": 0,
-    "latest_published": null,
-    "days_since_upload": null,
+    "ok": true,
+    "entry_count": 15,
+    "latest_published": "2026-09-04T08:06:21+00:00",
+    "days_since_upload": 0,
     "stale": false,
-    "error": "HTTP 500"
+    "error": null
   },
   {
     "channel_id": "UCxgeEPgtd5Aw7HgoEUXCauA",
@@ -192,8 +192,8 @@
     "parent": "travel",
     "ok": true,
     "entry_count": 15,
-    "latest_published": "2026-08-21T09:00:25+00:00",
-    "days_since_upload": 13,
+    "latest_published": "2026-09-04T09:00:23+00:00",
+    "days_since_upload": 0,
     "stale": false,
     "error": null
   },
@@ -203,8 +203,8 @@
     "parent": "travel",
     "ok": true,
     "entry_count": 15,
-    "latest_published": "2026-08-27T10:15:34+00:00",
-    "days_since_upload": 7,
+    "latest_published": "2026-09-04T08:15:15+00:00",
+    "days_since_upload": 0,
     "stale": false,
     "error": null
   },
@@ -223,12 +223,12 @@
     "channel_id": "UCugz3-UlkX2P77PtK1Ju0RA",
     "title": "쏘이Soy The World",
     "parent": "travel",
-    "ok": false,
-    "entry_count": 0,
-    "latest_published": null,
-    "days_since_upload": null,
+    "ok": true,
+    "entry_count": 15,
+    "latest_published": "2026-09-03T09:30:35+00:00",
+    "days_since_upload": 1,
     "stale": false,
-    "error": "HTTP 500"
+    "error": null
   },
   {
     "channel_id": "UCOt5yWZBDjI_aOM3efYtjnQ",
@@ -237,7 +237,7 @@
     "ok": true,
     "entry_count": 15,
     "latest_published": "2026-09-02T11:25:59+00:00",
-    "days_since_upload": 1,
+    "days_since_upload": 2,
     "stale": false,
     "error": null
   },
@@ -248,7 +248,7 @@
     "ok": true,
     "entry_count": 15,
     "latest_published": "2026-08-20T07:01:37+00:00",
-    "days_since_upload": 14,
+    "days_since_upload": 15,
     "stale": false,
     "error": null
   },
@@ -258,7 +258,7 @@
     "parent": "travel",
     "ok": true,
     "entry_count": 15,
-    "latest_published": "2026-09-03T11:00:40+00:00",
+    "latest_published": "2026-09-04T11:00:33+00:00",
     "days_since_upload": 0,
     "stale": false,
     "error": null
@@ -270,7 +270,7 @@
     "ok": true,
     "entry_count": 15,
     "latest_published": "2026-06-28T03:15:01+00:00",
-    "days_since_upload": 67,
+    "days_since_upload": 68,
     "stale": false,
     "error": null
   },
@@ -302,7 +302,7 @@
     "parent": "travel",
     "ok": true,
     "entry_count": 15,
-    "latest_published": "2026-09-04T00:22:07+00:00",
+    "latest_published": "2026-09-04T06:11:17+00:00",
     "days_since_upload": 0,
     "stale": false,
     "error": null
@@ -314,7 +314,7 @@
     "ok": true,
     "entry_count": 15,
     "latest_published": "2026-09-02T10:15:01+00:00",
-    "days_since_upload": 1,
+    "days_since_upload": 2,
     "stale": false,
     "error": null
   },
@@ -358,7 +358,7 @@
     "ok": true,
     "entry_count": 15,
     "latest_published": "2026-08-31T10:37:32+00:00",
-    "days_since_upload": 3,
+    "days_since_upload": 4,
     "stale": false,
     "error": null
   },
@@ -369,7 +369,7 @@
     "ok": true,
     "entry_count": 15,
     "latest_published": "2026-09-02T11:07:38+00:00",
-    "days_since_upload": 1,
+    "days_since_upload": 2,
     "stale": false,
     "error": null
   },
@@ -379,8 +379,8 @@
     "parent": "tech",
     "ok": true,
     "entry_count": 15,
-    "latest_published": "2026-09-02T11:00:04+00:00",
-    "days_since_upload": 1,
+    "latest_published": "2026-09-04T11:00:27+00:00",
+    "days_since_upload": 0,
     "stale": false,
     "error": null
   },
@@ -391,7 +391,7 @@
     "ok": true,
     "entry_count": 15,
     "latest_published": "2026-09-03T10:30:24+00:00",
-    "days_since_upload": 0,
+    "days_since_upload": 1,
     "stale": false,
     "error": null
   },
@@ -402,7 +402,7 @@
     "ok": true,
     "entry_count": 15,
     "latest_published": "2026-09-02T12:15:02+00:00",
-    "days_since_upload": 1,
+    "days_since_upload": 2,
     "stale": false,
     "error": null
   },
@@ -412,8 +412,8 @@
     "parent": "tech",
     "ok": true,
     "entry_count": 15,
-    "latest_published": "2026-09-02T10:00:39+00:00",
-    "days_since_upload": 1,
+    "latest_published": "2026-09-04T10:00:07+00:00",
+    "days_since_upload": 0,
     "stale": false,
     "error": null
   },
@@ -423,8 +423,8 @@
     "parent": "tech",
     "ok": true,
     "entry_count": 15,
-    "latest_published": "2026-09-02T10:50:27+00:00",
-    "days_since_upload": 1,
+    "latest_published": "2026-09-04T11:02:23+00:00",
+    "days_since_upload": 0,
     "stale": false,
     "error": null
   },
@@ -435,7 +435,7 @@
     "ok": true,
     "entry_count": 15,
     "latest_published": "2026-09-03T09:30:31+00:00",
-    "days_since_upload": 0,
+    "days_since_upload": 1,
     "stale": false,
     "error": null
   },
@@ -446,7 +446,7 @@
     "ok": true,
     "entry_count": 15,
     "latest_published": "2026-09-03T11:51:04+00:00",
-    "days_since_upload": 0,
+    "days_since_upload": 1,
     "stale": false,
     "error": null
   },
@@ -456,7 +456,7 @@
     "parent": "tech",
     "ok": true,
     "entry_count": 15,
-    "latest_published": "2026-09-03T07:00:14+00:00",
+    "latest_published": "2026-09-04T07:00:28+00:00",
     "days_since_upload": 0,
     "stale": false,
     "error": null
@@ -476,12 +476,12 @@
     "channel_id": "UCLJVJoj_SeZBs34w6V-etPg",
     "title": "JN테크리뷰",
     "parent": "tech",
-    "ok": false,
-    "entry_count": 0,
-    "latest_published": null,
-    "days_since_upload": null,
+    "ok": true,
+    "entry_count": 15,
+    "latest_published": "2026-08-31T08:03:53+00:00",
+    "days_since_upload": 4,
     "stale": false,
-    "error": "HTTP 500"
+    "error": null
   },
   {
     "channel_id": "UCvFhJjq2S7onUjiVmM4c5Bw",
@@ -489,7 +489,7 @@
     "parent": "tech",
     "ok": true,
     "entry_count": 15,
-    "latest_published": "2026-09-03T09:15:09+00:00",
+    "latest_published": "2026-09-04T09:15:37+00:00",
     "days_since_upload": 0,
     "stale": false,
     "error": null
@@ -511,7 +511,7 @@
     "parent": "tech",
     "ok": true,
     "entry_count": 15,
-    "latest_published": "2026-09-03T22:00:10+00:00",
+    "latest_published": "2026-09-04T08:41:55+00:00",
     "days_since_upload": 0,
     "stale": false,
     "error": null
@@ -522,7 +522,7 @@
     "parent": "tech",
     "ok": true,
     "entry_count": 15,
-    "latest_published": "2026-09-03T23:48:41+00:00",
+    "latest_published": "2026-09-04T04:54:55+00:00",
     "days_since_upload": 0,
     "stale": false,
     "error": null
@@ -531,12 +531,12 @@
     "channel_id": "UCs3b_l7IeeVSPqfW4jPnEDw",
     "title": "올댓리뷰",
     "parent": "tech",
-    "ok": false,
-    "entry_count": 0,
-    "latest_published": null,
-    "days_since_upload": null,
+    "ok": true,
+    "entry_count": 15,
+    "latest_published": "2026-08-28T07:09:44+00:00",
+    "days_since_upload": 7,
     "stale": false,
-    "error": "HTTP 404"
+    "error": null
   },
   {
     "channel_id": "UCcZ7McBJAPWYTgTWr60xBmA",
@@ -545,7 +545,7 @@
     "ok": true,
     "entry_count": 15,
     "latest_published": "2026-09-03T11:48:30+00:00",
-    "days_since_upload": 0,
+    "days_since_upload": 1,
     "stale": false,
     "error": null
   },
@@ -555,8 +555,8 @@
     "parent": "tech",
     "ok": true,
     "entry_count": 15,
-    "latest_published": "2026-09-02T10:24:30+00:00",
-    "days_since_upload": 1,
+    "latest_published": "2026-09-04T09:15:37+00:00",
+    "days_since_upload": 0,
     "stale": false,
     "error": null
   },
@@ -566,7 +566,7 @@
     "parent": "aicoding",
     "ok": true,
     "entry_count": 15,
-    "latest_published": "2026-09-03T23:37:27+00:00",
+    "latest_published": "2026-09-04T11:00:08+00:00",
     "days_since_upload": 0,
     "stale": false,
     "error": null
@@ -578,7 +578,7 @@
     "ok": true,
     "entry_count": 15,
     "latest_published": "2026-09-02T03:15:05+00:00",
-    "days_since_upload": 1,
+    "days_since_upload": 2,
     "stale": false,
     "error": null
   },
@@ -589,7 +589,7 @@
     "ok": true,
     "entry_count": 15,
     "latest_published": "2026-08-30T07:00:33+00:00",
-    "days_since_upload": 4,
+    "days_since_upload": 5,
     "stale": false,
     "error": null
   },
@@ -600,7 +600,7 @@
     "ok": true,
     "entry_count": 15,
     "latest_published": "2026-08-31T09:30:26+00:00",
-    "days_since_upload": 3,
+    "days_since_upload": 4,
     "stale": false,
     "error": null
   },
@@ -611,7 +611,7 @@
     "ok": true,
     "entry_count": 15,
     "latest_published": "2026-08-29T03:24:41+00:00",
-    "days_since_upload": 5,
+    "days_since_upload": 6,
     "stale": false,
     "error": null
   },
@@ -622,7 +622,7 @@
     "ok": true,
     "entry_count": 15,
     "latest_published": "2026-08-27T12:18:37+00:00",
-    "days_since_upload": 7,
+    "days_since_upload": 8,
     "stale": false,
     "error": null
   },
@@ -633,7 +633,7 @@
     "ok": true,
     "entry_count": 15,
     "latest_published": "2026-09-03T05:36:33+00:00",
-    "days_since_upload": 0,
+    "days_since_upload": 1,
     "stale": false,
     "error": null
   },
@@ -652,12 +652,12 @@
     "channel_id": "UCRpOx7jjy2PuuVeRrYKbdCA",
     "title": "코딩하는기술사",
     "parent": "aicoding",
-    "ok": false,
-    "entry_count": 0,
-    "latest_published": null,
-    "days_since_upload": null,
+    "ok": true,
+    "entry_count": 15,
+    "latest_published": "2026-09-03T22:55:27+00:00",
+    "days_since_upload": 0,
     "stale": false,
-    "error": "HTTP 404"
+    "error": null
   },
   {
     "channel_id": "UCz9n4yRsYYryRjrSCK0-YWA",
@@ -666,7 +666,7 @@
     "ok": true,
     "entry_count": 15,
     "latest_published": "2026-08-21T08:29:23+00:00",
-    "days_since_upload": 13,
+    "days_since_upload": 14,
     "stale": false,
     "error": null
   },
@@ -677,7 +677,7 @@
     "ok": true,
     "entry_count": 15,
     "latest_published": "2026-09-03T11:09:04+00:00",
-    "days_since_upload": 0,
+    "days_since_upload": 1,
     "stale": false,
     "error": null
   },
@@ -698,7 +698,7 @@
     "parent": "aicoding",
     "ok": true,
     "entry_count": 15,
-    "latest_published": "2026-09-04T00:17:55+00:00",
+    "latest_published": "2026-09-04T10:50:02+00:00",
     "days_since_upload": 0,
     "stale": false,
     "error": null
@@ -710,7 +710,7 @@
     "ok": true,
     "entry_count": 15,
     "latest_published": "2026-08-21T12:26:43+00:00",
-    "days_since_upload": 13,
+    "days_since_upload": 14,
     "stale": false,
     "error": null
   },
@@ -721,7 +721,7 @@
     "ok": true,
     "entry_count": 15,
     "latest_published": "2026-08-25T09:30:01+00:00",
-    "days_since_upload": 9,
+    "days_since_upload": 10,
     "stale": false,
     "error": null
   },
@@ -729,12 +729,12 @@
     "channel_id": "UCrailkufB1aKrKc6l1osRgw",
     "title": "냥숲nyangsoop",
     "parent": "vlog",
-    "ok": false,
-    "entry_count": 0,
-    "latest_published": null,
-    "days_since_upload": null,
+    "ok": true,
+    "entry_count": 15,
+    "latest_published": "2026-07-30T02:00:29+00:00",
+    "days_since_upload": 36,
     "stale": false,
-    "error": "HTTP 500"
+    "error": null
   },
   {
     "channel_id": "UCjZhSJP6ridQzH75e48wyIQ",
@@ -753,7 +753,7 @@
     "parent": "vlog",
     "ok": true,
     "entry_count": 15,
-    "latest_published": "2026-09-03T11:02:26+00:00",
+    "latest_published": "2026-09-04T11:02:17+00:00",
     "days_since_upload": 0,
     "stale": false,
     "error": null
@@ -765,7 +765,7 @@
     "ok": true,
     "entry_count": 15,
     "latest_published": "2026-08-09T11:00:11+00:00",
-    "days_since_upload": 25,
+    "days_since_upload": 26,
     "stale": false,
     "error": null
   },
@@ -775,8 +775,8 @@
     "parent": "vlog",
     "ok": true,
     "entry_count": 15,
-    "latest_published": "2026-09-01T09:15:35+00:00",
-    "days_since_upload": 2,
+    "latest_published": "2026-09-04T09:15:29+00:00",
+    "days_since_upload": 0,
     "stale": false,
     "error": null
   },
@@ -787,7 +787,7 @@
     "ok": true,
     "entry_count": 15,
     "latest_published": "2026-09-03T09:40:26+00:00",
-    "days_since_upload": 0,
+    "days_since_upload": 1,
     "stale": false,
     "error": null
   },
@@ -798,7 +798,7 @@
     "ok": true,
     "entry_count": 15,
     "latest_published": "2026-08-30T12:01:37+00:00",
-    "days_since_upload": 4,
+    "days_since_upload": 5,
     "stale": false,
     "error": null
   },
@@ -809,7 +809,7 @@
     "ok": true,
     "entry_count": 15,
     "latest_published": "2026-09-03T11:46:42+00:00",
-    "days_since_upload": 0,
+    "days_since_upload": 1,
     "stale": false,
     "error": null
   },
@@ -820,7 +820,7 @@
     "ok": true,
     "entry_count": 15,
     "latest_published": "2026-09-02T10:01:29+00:00",
-    "days_since_upload": 1,
+    "days_since_upload": 2,
     "stale": false,
     "error": null
   },
@@ -831,7 +831,7 @@
     "ok": true,
     "entry_count": 15,
     "latest_published": "2026-08-29T03:24:47+00:00",
-    "days_since_upload": 5,
+    "days_since_upload": 6,
     "stale": false,
     "error": null
   },
@@ -842,7 +842,7 @@
     "ok": true,
     "entry_count": 15,
     "latest_published": "2026-09-03T03:45:17+00:00",
-    "days_since_upload": 0,
+    "days_since_upload": 1,
     "stale": false,
     "error": null
   },
@@ -852,8 +852,8 @@
     "parent": "vlog",
     "ok": true,
     "entry_count": 15,
-    "latest_published": "2026-08-28T10:00:48+00:00",
-    "days_since_upload": 6,
+    "latest_published": "2026-09-04T10:11:19+00:00",
+    "days_since_upload": 0,
     "stale": false,
     "error": null
   },
@@ -864,7 +864,7 @@
     "ok": true,
     "entry_count": 15,
     "latest_published": "2026-08-23T08:38:58+00:00",
-    "days_since_upload": 11,
+    "days_since_upload": 12,
     "stale": false,
     "error": null
   },
@@ -896,7 +896,7 @@
     "parent": "fitness",
     "ok": true,
     "entry_count": 15,
-    "latest_published": "2026-09-03T12:02:36+00:00",
+    "latest_published": "2026-09-04T12:02:33+00:00",
     "days_since_upload": 0,
     "stale": false,
     "error": null
@@ -905,12 +905,12 @@
     "channel_id": "UC4yq3FWEWqMvFNFBsV3gbKQ",
     "title": "힙으뜸",
     "parent": "fitness",
-    "ok": false,
-    "entry_count": 0,
-    "latest_published": null,
-    "days_since_upload": null,
+    "ok": true,
+    "entry_count": 15,
+    "latest_published": "2026-09-03T10:00:27+00:00",
+    "days_since_upload": 1,
     "stale": false,
-    "error": "HTTP 404"
+    "error": null
   },
   {
     "channel_id": "UCKEspD9kts44sG5E80kQcjQ",
@@ -919,7 +919,7 @@
     "ok": true,
     "entry_count": 15,
     "latest_published": "2026-09-03T08:32:59+00:00",
-    "days_since_upload": 0,
+    "days_since_upload": 1,
     "stale": false,
     "error": null
   },
@@ -929,7 +929,7 @@
     "parent": "fitness",
     "ok": true,
     "entry_count": 15,
-    "latest_published": "2026-09-03T11:00:17+00:00",
+    "latest_published": "2026-09-04T03:41:55+00:00",
     "days_since_upload": 0,
     "stale": false,
     "error": null
@@ -938,12 +938,12 @@
     "channel_id": "UCHVuoHrPWWTD67Ln1jV4Bew",
     "title": "흥둥이",
     "parent": "fitness",
-    "ok": false,
-    "entry_count": 0,
-    "latest_published": null,
-    "days_since_upload": null,
+    "ok": true,
+    "entry_count": 15,
+    "latest_published": "2026-09-03T06:00:17+00:00",
+    "days_since_upload": 1,
     "stale": false,
-    "error": "HTTP 404"
+    "error": null
   },
   {
     "channel_id": "UCF97u_Y5C3FxAcD0nn1DCKQ",
@@ -952,7 +952,7 @@
     "ok": true,
     "entry_count": 15,
     "latest_published": "2026-08-10T10:21:38+00:00",
-    "days_since_upload": 24,
+    "days_since_upload": 25,
     "stale": false,
     "error": null
   },
@@ -963,7 +963,7 @@
     "ok": true,
     "entry_count": 15,
     "latest_published": "2026-08-18T09:00:12+00:00",
-    "days_since_upload": 16,
+    "days_since_upload": 17,
     "stale": false,
     "error": null
   },
@@ -974,7 +974,7 @@
     "ok": true,
     "entry_count": 15,
     "latest_published": "2026-08-03T10:01:46+00:00",
-    "days_since_upload": 31,
+    "days_since_upload": 32,
     "stale": false,
     "error": null
   },
@@ -984,7 +984,7 @@
     "parent": "fitness",
     "ok": true,
     "entry_count": 15,
-    "latest_published": "2026-09-03T17:33:36+00:00",
+    "latest_published": "2026-09-04T08:39:31+00:00",
     "days_since_upload": 0,
     "stale": false,
     "error": null
@@ -996,7 +996,7 @@
     "ok": true,
     "entry_count": 15,
     "latest_published": "2026-09-03T08:36:36+00:00",
-    "days_since_upload": 0,
+    "days_since_upload": 1,
     "stale": false,
     "error": null
   },
@@ -1007,7 +1007,7 @@
     "ok": true,
     "entry_count": 15,
     "latest_published": "2026-08-31T09:30:21+00:00",
-    "days_since_upload": 3,
+    "days_since_upload": 4,
     "stale": false,
     "error": null
   },
@@ -1015,12 +1015,12 @@
     "channel_id": "UCo_-ny9SP5Pbz8KM1KKchbA",
     "title": "세계적으로 유명한 운동 정보",
     "parent": "fitness",
-    "ok": false,
-    "entry_count": 0,
-    "latest_published": null,
-    "days_since_upload": null,
+    "ok": true,
+    "entry_count": 15,
+    "latest_published": "2026-06-18T10:00:04+00:00",
+    "days_since_upload": 78,
     "stale": false,
-    "error": "HTTP 404"
+    "error": null
   },
   {
     "channel_id": "UCDVQ0yDp7Bu-BxEfelTHL8g",
@@ -1029,7 +1029,7 @@
     "ok": true,
     "entry_count": 15,
     "latest_published": "2026-09-02T05:11:09+00:00",
-    "days_since_upload": 1,
+    "days_since_upload": 2,
     "stale": false,
     "error": null
   },
@@ -1040,7 +1040,7 @@
     "ok": true,
     "entry_count": 15,
     "latest_published": "2026-09-03T10:10:25+00:00",
-    "days_since_upload": 0,
+    "days_since_upload": 1,
     "stale": false,
     "error": null
   },
@@ -1051,7 +1051,7 @@
     "ok": true,
     "entry_count": 15,
     "latest_published": "2026-09-03T09:00:06+00:00",
-    "days_since_upload": 0,
+    "days_since_upload": 1,
     "stale": false,
     "error": null
   },
@@ -1062,7 +1062,7 @@
     "ok": true,
     "entry_count": 15,
     "latest_published": "2026-08-28T06:07:21+00:00",
-    "days_since_upload": 6,
+    "days_since_upload": 7,
     "stale": false,
     "error": null
   },
@@ -1072,7 +1072,7 @@
     "parent": "fitness",
     "ok": true,
     "entry_count": 15,
-    "latest_published": "2026-09-03T04:00:08+00:00",
+    "latest_published": "2026-09-04T04:00:28+00:00",
     "days_since_upload": 0,
     "stale": false,
     "error": null
