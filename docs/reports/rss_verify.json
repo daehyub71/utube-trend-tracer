@@ -72,7 +72,7 @@
     "ok": true,
     "entry_count": 15,
     "latest_published": "2026-09-07T16:40:02+00:00",
-    "days_since_upload": 1,
+    "days_since_upload": 2,
     "stale": false,
     "error": null
   },
@@ -171,7 +171,7 @@
     "ok": true,
     "entry_count": 15,
     "latest_published": "2026-09-05T16:03:37+00:00",
-    "days_since_upload": 3,
+    "days_since_upload": 4,
     "stale": false,
     "error": null
   },
@@ -215,7 +215,7 @@
     "ok": true,
     "entry_count": 15,
     "latest_published": "2026-08-30T14:21:27+00:00",
-    "days_since_upload": 9,
+    "days_since_upload": 10,
     "stale": false,
     "error": null
   },
@@ -347,7 +347,7 @@
     "ok": true,
     "entry_count": 15,
     "latest_published": "2026-09-01T16:33:00+00:00",
-    "days_since_upload": 7,
+    "days_since_upload": 8,
     "stale": false,
     "error": null
   },
@@ -435,7 +435,7 @@
     "ok": true,
     "entry_count": 15,
     "latest_published": "2026-09-07T14:25:23+00:00",
-    "days_since_upload": 1,
+    "days_since_upload": 2,
     "stale": false,
     "error": null
   },
@@ -445,7 +445,7 @@
     "parent": "tech",
     "ok": true,
     "entry_count": 15,
-    "latest_published": "2026-09-09T09:00:29+00:00",
+    "latest_published": "2026-09-09T14:29:57+00:00",
     "days_since_upload": 0,
     "stale": false,
     "error": null
@@ -479,7 +479,7 @@
     "ok": true,
     "entry_count": 15,
     "latest_published": "2026-09-06T13:12:43+00:00",
-    "days_since_upload": 2,
+    "days_since_upload": 3,
     "stale": false,
     "error": null
   },
@@ -501,7 +501,7 @@
     "ok": true,
     "entry_count": 15,
     "latest_published": "2026-09-08T14:02:17+00:00",
-    "days_since_upload": 0,
+    "days_since_upload": 1,
     "stale": false,
     "error": null
   },
@@ -643,8 +643,8 @@
     "parent": "aicoding",
     "ok": true,
     "entry_count": 15,
-    "latest_published": "2026-09-08T03:41:59+00:00",
-    "days_since_upload": 1,
+    "latest_published": "2026-09-09T14:57:31+00:00",
+    "days_since_upload": 0,
     "stale": false,
     "error": null
   },
@@ -698,7 +698,7 @@
     "parent": "aicoding",
     "ok": true,
     "entry_count": 15,
-    "latest_published": "2026-09-09T10:00:03+00:00",
+    "latest_published": "2026-09-09T18:52:54+00:00",
     "days_since_upload": 0,
     "stale": false,
     "error": null
@@ -809,7 +809,7 @@
     "ok": true,
     "entry_count": 15,
     "latest_published": "2026-09-07T13:00:32+00:00",
-    "days_since_upload": 1,
+    "days_since_upload": 2,
     "stale": false,
     "error": null
   },
@@ -984,7 +984,7 @@
     "parent": "fitness",
     "ok": true,
     "entry_count": 15,
-    "latest_published": "2026-09-09T11:25:56+00:00",
+    "latest_published": "2026-09-09T14:08:18+00:00",
     "days_since_upload": 0,
     "stale": false,
     "error": null
