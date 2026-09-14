@@ -3,34 +3,34 @@
     "channel_id": "UCwsFLjczPWiiWBS9_cdSQIQ",
     "title": "교광TV",
     "parent": "food",
-    "ok": false,
-    "entry_count": 0,
-    "latest_published": null,
-    "days_since_upload": null,
+    "ok": true,
+    "entry_count": 15,
+    "latest_published": "2026-08-18T12:00:25+00:00",
+    "days_since_upload": 27,
     "stale": false,
-    "error": "HTTP 404"
+    "error": null
   },
   {
     "channel_id": "UCC9pQY_uaBSa0WOpMNJHbEQ",
     "title": "자취요리신 simple cooking",
     "parent": "food",
-    "ok": false,
-    "entry_count": 0,
-    "latest_published": null,
-    "days_since_upload": null,
+    "ok": true,
+    "entry_count": 15,
+    "latest_published": "2026-09-14T11:35:22+00:00",
+    "days_since_upload": 0,
     "stale": false,
-    "error": "HTTP 500"
+    "error": null
   },
   {
     "channel_id": "UCVXx89z5j3gkQMGScNqmWjw",
     "title": "함께해요 맛나요리",
     "parent": "food",
-    "ok": false,
-    "entry_count": 0,
-    "latest_published": null,
-    "days_since_upload": null,
+    "ok": true,
+    "entry_count": 15,
+    "latest_published": "2026-09-13T22:00:02+00:00",
+    "days_since_upload": 0,
     "stale": false,
-    "error": "HTTP 500"
+    "error": null
   },
   {
     "channel_id": "UC37fRkl_iIjDAr9pf0FFzGA",
@@ -39,7 +39,7 @@
     "ok": true,
     "entry_count": 15,
     "latest_published": "2026-09-13T05:09:32+00:00",
-    "days_since_upload": 0,
+    "days_since_upload": 1,
     "stale": false,
     "error": null
   },
@@ -50,7 +50,7 @@
     "ok": true,
     "entry_count": 15,
     "latest_published": "2026-09-13T10:51:16+00:00",
-    "days_since_upload": 0,
+    "days_since_upload": 1,
     "stale": false,
     "error": null
   },
@@ -58,23 +58,23 @@
     "channel_id": "UCObJpvG3_f0P3EuLJCjzT5g",
     "title": "빅페이스 BIGFACE",
     "parent": "food",
-    "ok": false,
-    "entry_count": 0,
-    "latest_published": null,
-    "days_since_upload": null,
+    "ok": true,
+    "entry_count": 15,
+    "latest_published": "2026-09-11T10:00:21+00:00",
+    "days_since_upload": 3,
     "stale": false,
-    "error": "HTTP 404"
+    "error": null
   },
   {
     "channel_id": "UC-T8S0Vs2lvVXSkQv2qUStw",
     "title": "1분요리왕 통키",
     "parent": "food",
-    "ok": false,
-    "entry_count": 0,
-    "latest_published": null,
-    "days_since_upload": null,
+    "ok": true,
+    "entry_count": 15,
+    "latest_published": "2026-09-14T07:50:01+00:00",
+    "days_since_upload": 0,
     "stale": false,
-    "error": "HTTP 404"
+    "error": null
   },
   {
     "channel_id": "UCWyjY6ykM58LO5ipzRgIzGA",
@@ -83,7 +83,7 @@
     "ok": true,
     "entry_count": 15,
     "latest_published": "2026-09-11T08:00:39+00:00",
-    "days_since_upload": 2,
+    "days_since_upload": 3,
     "stale": false,
     "error": null
   },
@@ -91,34 +91,34 @@
     "channel_id": "UCKA_6r3CWC76x_EaFO6jsPA",
     "title": "만개의레시피 10K Recipe",
     "parent": "food",
-    "ok": false,
-    "entry_count": 0,
-    "latest_published": null,
-    "days_since_upload": null,
+    "ok": true,
+    "entry_count": 15,
+    "latest_published": "2026-09-14T05:45:52+00:00",
+    "days_since_upload": 0,
     "stale": false,
-    "error": "HTTP 500"
+    "error": null
   },
   {
     "channel_id": "UCnMJ4zTwsDWHY1cdzHvcy0Q",
     "title": "요리고수",
     "parent": "food",
-    "ok": false,
-    "entry_count": 0,
-    "latest_published": null,
-    "days_since_upload": null,
+    "ok": true,
+    "entry_count": 15,
+    "latest_published": "2026-09-14T08:00:20+00:00",
+    "days_since_upload": 0,
     "stale": false,
-    "error": "HTTP 404"
+    "error": null
   },
   {
     "channel_id": "UCmufNhhBlfucIlTBofPxNpQ",
     "title": "후딱 레시피 Huttak",
     "parent": "food",
-    "ok": false,
-    "entry_count": 0,
-    "latest_published": null,
-    "days_since_upload": null,
+    "ok": true,
+    "entry_count": 15,
+    "latest_published": "2026-09-11T07:15:23+00:00",
+    "days_since_upload": 3,
     "stale": false,
-    "error": "HTTP 404"
+    "error": null
   },
   {
     "channel_id": "UCjeFmKMYYd1L9Glf-itT-Fg",
@@ -126,8 +126,8 @@
     "parent": "food",
     "ok": true,
     "entry_count": 15,
-    "latest_published": "2026-09-12T12:30:19+00:00",
-    "days_since_upload": 1,
+    "latest_published": "2026-09-14T12:30:38+00:00",
+    "days_since_upload": 0,
     "stale": false,
     "error": null
   },
@@ -138,7 +138,7 @@
     "ok": true,
     "entry_count": 15,
     "latest_published": "2026-09-11T04:12:08+00:00",
-    "days_since_upload": 2,
+    "days_since_upload": 3,
     "stale": false,
     "error": null
   },
@@ -146,12 +146,12 @@
     "channel_id": "UCIYzQfZWi059RjaYgQUVLnw",
     "title": "용용먹방 YongYong",
     "parent": "food",
-    "ok": false,
-    "entry_count": 0,
-    "latest_published": null,
-    "days_since_upload": null,
+    "ok": true,
+    "entry_count": 15,
+    "latest_published": "2026-09-13T11:27:11+00:00",
+    "days_since_upload": 1,
     "stale": false,
-    "error": "HTTP 500"
+    "error": null
   },
   {
     "channel_id": "UC2PkqKo7GNK0jKt1YfYIH6w",
@@ -160,7 +160,7 @@
     "ok": true,
     "entry_count": 15,
     "latest_published": "2026-09-13T10:20:11+00:00",
-    "days_since_upload": 0,
+    "days_since_upload": 1,
     "stale": false,
     "error": null
   },
@@ -168,12 +168,12 @@
     "channel_id": "UCKO8RCkj4V-2mq7DLuoOObQ",
     "title": "명작맛집",
     "parent": "food",
-    "ok": false,
-    "entry_count": 0,
-    "latest_published": null,
-    "days_since_upload": null,
+    "ok": true,
+    "entry_count": 15,
+    "latest_published": "2026-09-12T15:04:20+00:00",
+    "days_since_upload": 1,
     "stale": false,
-    "error": "HTTP 500"
+    "error": null
   },
   {
     "channel_id": "UCmlNL48ZaUI7F-FdQdPxFTw",
@@ -181,7 +181,7 @@
     "parent": "food",
     "ok": true,
     "entry_count": 15,
-    "latest_published": "2026-09-13T21:17:02+00:00",
+    "latest_published": "2026-09-14T13:31:44+00:00",
     "days_since_upload": 0,
     "stale": false,
     "error": null
@@ -190,12 +190,12 @@
     "channel_id": "UCxgeEPgtd5Aw7HgoEUXCauA",
     "title": "꾸준 kkujun",
     "parent": "travel",
-    "ok": false,
-    "entry_count": 0,
-    "latest_published": null,
-    "days_since_upload": null,
+    "ok": true,
+    "entry_count": 15,
+    "latest_published": "2026-09-11T09:00:35+00:00",
+    "days_since_upload": 3,
     "stale": false,
-    "error": "HTTP 500"
+    "error": null
   },
   {
     "channel_id": "UC7e5oAresWJW6LOyygdSUXw",
@@ -204,7 +204,7 @@
     "ok": true,
     "entry_count": 15,
     "latest_published": "2026-09-12T08:15:56+00:00",
-    "days_since_upload": 1,
+    "days_since_upload": 2,
     "stale": false,
     "error": null
   },
@@ -212,45 +212,45 @@
     "channel_id": "UCvuwlY4fWkWMuzRkj5MAK9Q",
     "title": "초마드 CHOMAD",
     "parent": "travel",
-    "ok": false,
-    "entry_count": 0,
-    "latest_published": null,
-    "days_since_upload": null,
+    "ok": true,
+    "entry_count": 15,
+    "latest_published": "2026-08-30T14:21:27+00:00",
+    "days_since_upload": 15,
     "stale": false,
-    "error": "HTTP 500"
+    "error": null
   },
   {
     "channel_id": "UCugz3-UlkX2P77PtK1Ju0RA",
     "title": "쏘이Soy The World",
     "parent": "travel",
-    "ok": false,
-    "entry_count": 0,
-    "latest_published": null,
-    "days_since_upload": null,
+    "ok": true,
+    "entry_count": 15,
+    "latest_published": "2026-09-03T09:30:35+00:00",
+    "days_since_upload": 11,
     "stale": false,
-    "error": "HTTP 404"
+    "error": null
   },
   {
     "channel_id": "UCOt5yWZBDjI_aOM3efYtjnQ",
     "title": "내이름은유재석 mynameyjs",
     "parent": "travel",
-    "ok": false,
-    "entry_count": 0,
-    "latest_published": null,
-    "days_since_upload": null,
+    "ok": true,
+    "entry_count": 15,
+    "latest_published": "2026-09-06T02:45:30+00:00",
+    "days_since_upload": 8,
     "stale": false,
-    "error": "HTTP 404"
+    "error": null
   },
   {
     "channel_id": "UCHLowkcv5CvjgT0MCd7SbJA",
     "title": "여행작가 봄비",
     "parent": "travel",
-    "ok": false,
-    "entry_count": 0,
-    "latest_published": null,
-    "days_since_upload": null,
+    "ok": true,
+    "entry_count": 15,
+    "latest_published": "2026-09-11T23:17:05+00:00",
+    "days_since_upload": 2,
     "stale": false,
-    "error": "HTTP 404"
+    "error": null
   },
   {
     "channel_id": "UCZsg1rkojx4OXb30xjtTRww",
@@ -258,7 +258,7 @@
     "parent": "travel",
     "ok": true,
     "entry_count": 15,
-    "latest_published": "2026-09-13T11:00:16+00:00",
+    "latest_published": "2026-09-14T11:00:00+00:00",
     "days_since_upload": 0,
     "stale": false,
     "error": null
@@ -267,12 +267,12 @@
     "channel_id": "UC3BLT9Fd_7yPFKbGLSfx0Fw",
     "title": "여행일기 - 시니어 여행 전문 채널",
     "parent": "travel",
-    "ok": false,
-    "entry_count": 0,
-    "latest_published": null,
-    "days_since_upload": null,
+    "ok": true,
+    "entry_count": 15,
+    "latest_published": "2026-06-28T03:15:01+00:00",
+    "days_since_upload": 78,
     "stale": false,
-    "error": "HTTP 404"
+    "error": null
   },
   {
     "channel_id": "UCTD4xCbpjFoy6NwIEYCCykA",
@@ -281,7 +281,7 @@
     "ok": true,
     "entry_count": 15,
     "latest_published": "2026-09-11T10:15:24+00:00",
-    "days_since_upload": 2,
+    "days_since_upload": 3,
     "stale": false,
     "error": null
   },
@@ -289,23 +289,23 @@
     "channel_id": "UCuOscUJC9-vQPMpHd51WrlQ",
     "title": "국내트레킹",
     "parent": "travel",
-    "ok": false,
-    "entry_count": 0,
-    "latest_published": null,
-    "days_since_upload": null,
+    "ok": true,
+    "entry_count": 15,
+    "latest_published": "2026-09-09T01:30:11+00:00",
+    "days_since_upload": 5,
     "stale": false,
-    "error": "HTTP 404"
+    "error": null
   },
   {
     "channel_id": "UC37RfRDyeIrSDlGcQS15otg",
     "title": "세계여행하는 너구리TV",
     "parent": "travel",
-    "ok": false,
-    "entry_count": 0,
-    "latest_published": null,
-    "days_since_upload": null,
+    "ok": true,
+    "entry_count": 15,
+    "latest_published": "2026-09-14T08:02:55+00:00",
+    "days_since_upload": 0,
     "stale": false,
-    "error": "HTTP 500"
+    "error": null
   },
   {
     "channel_id": "UCp4DJOI0d53HnwAjDNR1kMA",
@@ -314,7 +314,7 @@
     "ok": true,
     "entry_count": 15,
     "latest_published": "2026-09-13T10:00:28+00:00",
-    "days_since_upload": 0,
+    "days_since_upload": 1,
     "stale": false,
     "error": null
   },
@@ -333,12 +333,12 @@
     "channel_id": "UCAGfAsauGPEXRgI8QfXPYJw",
     "title": "해외안전여행 TV",
     "parent": "travel",
-    "ok": false,
-    "entry_count": 0,
-    "latest_published": null,
-    "days_since_upload": null,
+    "ok": true,
+    "entry_count": 15,
+    "latest_published": "2026-09-12T02:00:08+00:00",
+    "days_since_upload": 2,
     "stale": false,
-    "error": "HTTP 404"
+    "error": null
   },
   {
     "channel_id": "UCt51cinfjae_b1g7U9mvzFg",
@@ -355,45 +355,45 @@
     "channel_id": "UCEEnXVSFK7fg-x2lJa7J_nA",
     "title": "아름다운 국내여행 [Beautiful Korea Tour]",
     "parent": "travel",
-    "ok": false,
-    "entry_count": 0,
-    "latest_published": null,
-    "days_since_upload": null,
+    "ok": true,
+    "entry_count": 15,
+    "latest_published": "2026-09-10T14:41:54+00:00",
+    "days_since_upload": 4,
     "stale": false,
-    "error": "HTTP 404"
+    "error": null
   },
   {
     "channel_id": "UC7ITVv5UuZQnvjM3SgJHRqg",
     "title": "여행로그",
     "parent": "travel",
-    "ok": false,
-    "entry_count": 0,
-    "latest_published": null,
-    "days_since_upload": null,
+    "ok": true,
+    "entry_count": 15,
+    "latest_published": "2026-09-14T10:54:57+00:00",
+    "days_since_upload": 0,
     "stale": false,
-    "error": "HTTP 404"
+    "error": null
   },
   {
     "channel_id": "UCdUcjkyZtf-1WJyPPiETF1g",
     "title": "ITSub잇섭",
     "parent": "tech",
-    "ok": false,
-    "entry_count": 0,
-    "latest_published": null,
-    "days_since_upload": null,
+    "ok": true,
+    "entry_count": 15,
+    "latest_published": "2026-09-14T11:00:20+00:00",
+    "days_since_upload": 0,
     "stale": false,
-    "error": "HTTP 404"
+    "error": null
   },
   {
     "channel_id": "UCJTmYzrlVk_GpnwJH5wYNwQ",
     "title": "MR엠알",
     "parent": "tech",
-    "ok": false,
-    "entry_count": 0,
-    "latest_published": null,
-    "days_since_upload": null,
+    "ok": true,
+    "entry_count": 15,
+    "latest_published": "2026-09-14T10:30:15+00:00",
+    "days_since_upload": 0,
     "stale": false,
-    "error": "HTTP 404"
+    "error": null
   },
   {
     "channel_id": "UCFX6adXoyQKxft933NB3rmA",
@@ -401,8 +401,8 @@
     "parent": "tech",
     "ok": true,
     "entry_count": 15,
-    "latest_published": "2026-09-10T10:36:22+00:00",
-    "days_since_upload": 3,
+    "latest_published": "2026-09-14T11:10:47+00:00",
+    "days_since_upload": 0,
     "stale": false,
     "error": null
   },
@@ -410,78 +410,78 @@
     "channel_id": "UCB11SAf7WSN4GrCquKoOHrw",
     "title": "주연 ZUYONI",
     "parent": "tech",
-    "ok": false,
-    "entry_count": 0,
-    "latest_published": null,
-    "days_since_upload": null,
+    "ok": true,
+    "entry_count": 15,
+    "latest_published": "2026-09-12T03:00:19+00:00",
+    "days_since_upload": 2,
     "stale": false,
-    "error": "HTTP 404"
+    "error": null
   },
   {
     "channel_id": "UC_0oo0GPlDUU88ubLDnJkSQ",
     "title": "UNDERkg",
     "parent": "tech",
-    "ok": false,
-    "entry_count": 0,
-    "latest_published": null,
-    "days_since_upload": null,
+    "ok": true,
+    "entry_count": 15,
+    "latest_published": "2026-09-13T11:05:37+00:00",
+    "days_since_upload": 1,
     "stale": false,
-    "error": "HTTP 404"
+    "error": null
   },
   {
     "channel_id": "UCX0Qk4QtPOlEwBmsbIG4vOg",
     "title": "리뷰야놀자",
     "parent": "tech",
-    "ok": false,
-    "entry_count": 0,
-    "latest_published": null,
-    "days_since_upload": null,
+    "ok": true,
+    "entry_count": 15,
+    "latest_published": "2026-09-14T08:30:23+00:00",
+    "days_since_upload": 0,
     "stale": false,
-    "error": "HTTP 500"
+    "error": null
   },
   {
     "channel_id": "UCVIZWeFmvOhCjJy4tZqertw",
     "title": "최마태의 POST IT",
     "parent": "tech",
-    "ok": false,
-    "entry_count": 0,
-    "latest_published": null,
-    "days_since_upload": null,
+    "ok": true,
+    "entry_count": 15,
+    "latest_published": "2026-09-14T05:22:29+00:00",
+    "days_since_upload": 0,
     "stale": false,
-    "error": "HTTP 404"
+    "error": null
   },
   {
     "channel_id": "UClVd_-HFVUm1KGsXa8FvUFQ",
     "title": "리뷰머신",
     "parent": "tech",
-    "ok": false,
-    "entry_count": 0,
-    "latest_published": null,
-    "days_since_upload": null,
+    "ok": true,
+    "entry_count": 15,
+    "latest_published": "2026-09-14T07:00:05+00:00",
+    "days_since_upload": 0,
     "stale": false,
-    "error": "HTTP 404"
+    "error": null
   },
   {
     "channel_id": "UC75nkVGVnnapAD9Sc8VQnlA",
     "title": "사야되나? - IT도 패션이다",
     "parent": "tech",
-    "ok": false,
-    "entry_count": 0,
-    "latest_published": null,
-    "days_since_upload": null,
+    "ok": true,
+    "entry_count": 15,
+    "latest_published": "2026-09-14T14:23:12+00:00",
+    "days_since_upload": 0,
     "stale": false,
-    "error": "HTTP 404"
+    "error": null
   },
   {
     "channel_id": "UCLJVJoj_SeZBs34w6V-etPg",
     "title": "JN테크리뷰",
     "parent": "tech",
-    "ok": false,
-    "entry_count": 0,
-    "latest_published": null,
-    "days_since_upload": null,
+    "ok": true,
+    "entry_count": 15,
+    "latest_published": "2026-09-06T13:12:43+00:00",
+    "days_since_upload": 8,
     "stale": false,
-    "error": "HTTP 404"
+    "error": null
   },
   {
     "channel_id": "UCvFhJjq2S7onUjiVmM4c5Bw",
@@ -490,7 +490,7 @@
     "ok": true,
     "entry_count": 15,
     "latest_published": "2026-09-12T10:20:15+00:00",
-    "days_since_upload": 1,
+    "days_since_upload": 2,
     "stale": false,
     "error": null
   },
@@ -498,12 +498,12 @@
     "channel_id": "UCnnRyMpraQ61XwdUnDPIKPQ",
     "title": "가성비 덕후 만두얏",
     "parent": "tech",
-    "ok": false,
-    "entry_count": 0,
-    "latest_published": null,
-    "days_since_upload": null,
+    "ok": true,
+    "entry_count": 15,
+    "latest_published": "2026-09-13T13:06:04+00:00",
+    "days_since_upload": 1,
     "stale": false,
-    "error": "HTTP 404"
+    "error": null
   },
   {
     "channel_id": "UCDHgdvvp6tHNcl3kNV4YPqQ",
@@ -520,56 +520,56 @@
     "channel_id": "UCvG-mykOeM6uwBOehcZYCAA",
     "title": "상상이상 IT 꿀팁 & 핫딜",
     "parent": "tech",
-    "ok": false,
-    "entry_count": 0,
-    "latest_published": null,
-    "days_since_upload": null,
+    "ok": true,
+    "entry_count": 15,
+    "latest_published": "2026-09-14T11:00:12+00:00",
+    "days_since_upload": 0,
     "stale": false,
-    "error": "HTTP 500"
+    "error": null
   },
   {
     "channel_id": "UCs3b_l7IeeVSPqfW4jPnEDw",
     "title": "올댓리뷰",
     "parent": "tech",
-    "ok": false,
-    "entry_count": 0,
-    "latest_published": null,
-    "days_since_upload": null,
+    "ok": true,
+    "entry_count": 15,
+    "latest_published": "2026-09-13T22:17:18+00:00",
+    "days_since_upload": 0,
     "stale": false,
-    "error": "HTTP 404"
+    "error": null
   },
   {
     "channel_id": "UCcZ7McBJAPWYTgTWr60xBmA",
     "title": "리뷰it",
     "parent": "tech",
-    "ok": false,
-    "entry_count": 0,
-    "latest_published": null,
-    "days_since_upload": null,
+    "ok": true,
+    "entry_count": 15,
+    "latest_published": "2026-09-14T05:16:02+00:00",
+    "days_since_upload": 0,
     "stale": false,
-    "error": "HTTP 404"
+    "error": null
   },
   {
     "channel_id": "UCbs9hN0X8fq76lLsW2TTzNg",
     "title": "오늘의할인",
     "parent": "tech",
-    "ok": false,
-    "entry_count": 0,
-    "latest_published": null,
-    "days_since_upload": null,
+    "ok": true,
+    "entry_count": 15,
+    "latest_published": "2026-09-08T10:16:23+00:00",
+    "days_since_upload": 6,
     "stale": false,
-    "error": "HTTP 404"
+    "error": null
   },
   {
     "channel_id": "UCQNE2JmbasNYbjGAcuBiRRg",
     "title": "조코딩 JoCoding",
     "parent": "aicoding",
-    "ok": false,
-    "entry_count": 0,
-    "latest_published": null,
-    "days_since_upload": null,
+    "ok": true,
+    "entry_count": 15,
+    "latest_published": "2026-09-14T14:30:21+00:00",
+    "days_since_upload": 0,
     "stale": false,
-    "error": "HTTP 404"
+    "error": null
   },
   {
     "channel_id": "UCSLrpBAzr-ROVGHQ5EmxnUg",
@@ -586,12 +586,12 @@
     "channel_id": "UCdNqxwnqpXJpMt47WE7Bwwg",
     "title": "커리어해커 알렉스",
     "parent": "aicoding",
-    "ok": false,
-    "entry_count": 0,
-    "latest_published": null,
-    "days_since_upload": null,
+    "ok": true,
+    "entry_count": 15,
+    "latest_published": "2026-08-30T07:00:33+00:00",
+    "days_since_upload": 15,
     "stale": false,
-    "error": "HTTP 404"
+    "error": null
   },
   {
     "channel_id": "UCfBvs0ZJdTA43NQrnI9imGA",
@@ -600,7 +600,7 @@
     "ok": true,
     "entry_count": 15,
     "latest_published": "2026-09-11T07:41:48+00:00",
-    "days_since_upload": 2,
+    "days_since_upload": 3,
     "stale": false,
     "error": null
   },
@@ -608,45 +608,45 @@
     "channel_id": "UCDLlMjELbrJdETmSiAB68AA",
     "title": "시민개발자 구씨",
     "parent": "aicoding",
-    "ok": false,
-    "entry_count": 0,
-    "latest_published": null,
-    "days_since_upload": null,
+    "ok": true,
+    "entry_count": 15,
+    "latest_published": "2026-09-12T03:04:00+00:00",
+    "days_since_upload": 2,
     "stale": false,
-    "error": "HTTP 404"
+    "error": null
   },
   {
     "channel_id": "UCDq9_N34UnlMSlFB4kWE15w",
     "title": "이동훈의 루트AI",
     "parent": "aicoding",
-    "ok": false,
-    "entry_count": 0,
-    "latest_published": null,
-    "days_since_upload": null,
+    "ok": true,
+    "entry_count": 15,
+    "latest_published": "2026-09-09T09:05:59+00:00",
+    "days_since_upload": 5,
     "stale": false,
-    "error": "HTTP 404"
+    "error": null
   },
   {
     "channel_id": "UCKdKdx5-eLZUmAgsdvxkKiA",
     "title": "양실장의 바이브코딩대학",
     "parent": "aicoding",
-    "ok": false,
-    "entry_count": 0,
-    "latest_published": null,
-    "days_since_upload": null,
+    "ok": true,
+    "entry_count": 15,
+    "latest_published": "2026-09-14T10:09:16+00:00",
+    "days_since_upload": 0,
     "stale": false,
-    "error": "HTTP 404"
+    "error": null
   },
   {
     "channel_id": "UCWRWkyubH0HCnjLsXoCCLzQ",
     "title": "라핀 | AI 자동화 바이브코딩",
     "parent": "aicoding",
-    "ok": false,
-    "entry_count": 0,
-    "latest_published": null,
-    "days_since_upload": null,
+    "ok": true,
+    "entry_count": 15,
+    "latest_published": "2026-09-09T14:57:31+00:00",
+    "days_since_upload": 4,
     "stale": false,
-    "error": "HTTP 404"
+    "error": null
   },
   {
     "channel_id": "UCRpOx7jjy2PuuVeRrYKbdCA",
@@ -663,12 +663,12 @@
     "channel_id": "UCz9n4yRsYYryRjrSCK0-YWA",
     "title": "오준석의 생존코딩",
     "parent": "aicoding",
-    "ok": false,
-    "entry_count": 0,
-    "latest_published": null,
-    "days_since_upload": null,
+    "ok": true,
+    "entry_count": 15,
+    "latest_published": "2026-08-21T08:29:23+00:00",
+    "days_since_upload": 24,
     "stale": false,
-    "error": "HTTP 404"
+    "error": null
   },
   {
     "channel_id": "UCIGciESvBCUvbC10vJkuD6w",
@@ -677,7 +677,7 @@
     "ok": true,
     "entry_count": 15,
     "latest_published": "2026-09-10T12:06:16+00:00",
-    "days_since_upload": 3,
+    "days_since_upload": 4,
     "stale": false,
     "error": null
   },
@@ -685,67 +685,67 @@
     "channel_id": "UCY4W_6R3mnN8LDr3IjQOhFw",
     "title": "가장 쉬운 AI 활용 개발 with Boaz",
     "parent": "aicoding",
-    "ok": false,
-    "entry_count": 0,
-    "latest_published": null,
-    "days_since_upload": null,
-    "stale": false,
-    "error": "HTTP 500"
+    "ok": true,
+    "entry_count": 15,
+    "latest_published": "2026-05-10T00:00:07+00:00",
+    "days_since_upload": 127,
+    "stale": true,
+    "error": null
   },
   {
     "channel_id": "UC6xro-nRXlpa4A5UoeFKUDA",
     "title": "바이브마피아 | AI Native 엔지니어",
     "parent": "aicoding",
-    "ok": false,
-    "entry_count": 0,
-    "latest_published": null,
-    "days_since_upload": null,
+    "ok": true,
+    "entry_count": 15,
+    "latest_published": "2026-09-14T08:00:34+00:00",
+    "days_since_upload": 0,
     "stale": false,
-    "error": "HTTP 500"
+    "error": null
   },
   {
     "channel_id": "UCyG7zAV_2JlPnxhwDxZN6sA",
     "title": "지현꿍",
     "parent": "vlog",
-    "ok": false,
-    "entry_count": 0,
-    "latest_published": null,
-    "days_since_upload": null,
+    "ok": true,
+    "entry_count": 15,
+    "latest_published": "2026-09-13T11:00:50+00:00",
+    "days_since_upload": 1,
     "stale": false,
-    "error": "HTTP 500"
+    "error": null
   },
   {
     "channel_id": "UCSn90DAxCF3yRs6mFK0-8TA",
     "title": "ondo온도",
     "parent": "vlog",
-    "ok": false,
-    "entry_count": 0,
-    "latest_published": null,
-    "days_since_upload": null,
+    "ok": true,
+    "entry_count": 15,
+    "latest_published": "2026-09-11T08:00:29+00:00",
+    "days_since_upload": 3,
     "stale": false,
-    "error": "HTTP 404"
+    "error": null
   },
   {
     "channel_id": "UCrailkufB1aKrKc6l1osRgw",
     "title": "냥숲nyangsoop",
     "parent": "vlog",
-    "ok": false,
-    "entry_count": 0,
-    "latest_published": null,
-    "days_since_upload": null,
+    "ok": true,
+    "entry_count": 15,
+    "latest_published": "2026-09-12T11:30:10+00:00",
+    "days_since_upload": 2,
     "stale": false,
-    "error": "HTTP 500"
+    "error": null
   },
   {
     "channel_id": "UCjZhSJP6ridQzH75e48wyIQ",
     "title": "hongsi 홍시",
     "parent": "vlog",
-    "ok": false,
-    "entry_count": 0,
-    "latest_published": null,
-    "days_since_upload": null,
+    "ok": true,
+    "entry_count": 15,
+    "latest_published": "2026-09-08T12:00:19+00:00",
+    "days_since_upload": 6,
     "stale": false,
-    "error": "HTTP 404"
+    "error": null
   },
   {
     "channel_id": "UCOfPBjrT7sFiBe3Bl2e9bEA",
@@ -753,7 +753,7 @@
     "parent": "vlog",
     "ok": true,
     "entry_count": 15,
-    "latest_published": "2026-09-13T12:30:04+00:00",
+    "latest_published": "2026-09-14T11:02:12+00:00",
     "days_since_upload": 0,
     "stale": false,
     "error": null
@@ -765,7 +765,7 @@
     "ok": true,
     "entry_count": 15,
     "latest_published": "2026-08-09T11:00:11+00:00",
-    "days_since_upload": 35,
+    "days_since_upload": 36,
     "stale": false,
     "error": null
   },
@@ -773,34 +773,34 @@
     "channel_id": "UCDBr5TfaSHWVnifL2uy2bEw",
     "title": "유부남",
     "parent": "vlog",
-    "ok": false,
-    "entry_count": 0,
-    "latest_published": null,
-    "days_since_upload": null,
+    "ok": true,
+    "entry_count": 15,
+    "latest_published": "2026-09-14T09:15:39+00:00",
+    "days_since_upload": 0,
     "stale": false,
-    "error": "HTTP 500"
+    "error": null
   },
   {
     "channel_id": "UC5duyhoJ4mXbZff6elnmvTw",
     "title": "하누",
     "parent": "vlog",
-    "ok": false,
-    "entry_count": 0,
-    "latest_published": null,
-    "days_since_upload": null,
+    "ok": true,
+    "entry_count": 15,
+    "latest_published": "2026-09-03T09:40:26+00:00",
+    "days_since_upload": 11,
     "stale": false,
-    "error": "HTTP 500"
+    "error": null
   },
   {
     "channel_id": "UC9_IITLXM0_8zeMCa5n7m_g",
     "title": "동세네DSN",
     "parent": "vlog",
-    "ok": false,
-    "entry_count": 0,
-    "latest_published": null,
-    "days_since_upload": null,
+    "ok": true,
+    "entry_count": 15,
+    "latest_published": "2026-09-13T12:33:26+00:00",
+    "days_since_upload": 1,
     "stale": false,
-    "error": "HTTP 500"
+    "error": null
   },
   {
     "channel_id": "UCFCWWHCdqpm1aMuOmwQBuCw",
@@ -809,7 +809,7 @@
     "ok": true,
     "entry_count": 15,
     "latest_published": "2026-09-07T13:00:32+00:00",
-    "days_since_upload": 6,
+    "days_since_upload": 7,
     "stale": false,
     "error": null
   },
@@ -817,23 +817,23 @@
     "channel_id": "UCkBLIp5uxBkwSsxpNTnoXxg",
     "title": "차차 CHA!",
     "parent": "vlog",
-    "ok": false,
-    "entry_count": 0,
-    "latest_published": null,
-    "days_since_upload": null,
+    "ok": true,
+    "entry_count": 15,
+    "latest_published": "2026-09-14T11:02:23+00:00",
+    "days_since_upload": 0,
     "stale": false,
-    "error": "HTTP 404"
+    "error": null
   },
   {
     "channel_id": "UCyWH9r_JUHM2FKnVmuvSoEA",
     "title": "Kim’s 일본 일상 vlog",
     "parent": "vlog",
-    "ok": false,
-    "entry_count": 0,
-    "latest_published": null,
-    "days_since_upload": null,
+    "ok": true,
+    "entry_count": 15,
+    "latest_published": "2026-09-12T03:29:55+00:00",
+    "days_since_upload": 2,
     "stale": false,
-    "error": "HTTP 404"
+    "error": null
   },
   {
     "channel_id": "UCzzt6bFEBcy-CoZeFvTSq0A",
@@ -842,7 +842,7 @@
     "ok": true,
     "entry_count": 15,
     "latest_published": "2026-09-11T07:00:23+00:00",
-    "days_since_upload": 2,
+    "days_since_upload": 3,
     "stale": false,
     "error": null
   },
@@ -853,7 +853,7 @@
     "ok": true,
     "entry_count": 15,
     "latest_published": "2026-09-11T10:00:34+00:00",
-    "days_since_upload": 2,
+    "days_since_upload": 3,
     "stale": false,
     "error": null
   },
@@ -861,12 +861,12 @@
     "channel_id": "UCiJs5RqOTQl_voqzFFbG6qQ",
     "title": "심심해서 하는 브이로그",
     "parent": "vlog",
-    "ok": false,
-    "entry_count": 0,
-    "latest_published": null,
-    "days_since_upload": null,
+    "ok": true,
+    "entry_count": 15,
+    "latest_published": "2026-09-13T04:07:50+00:00",
+    "days_since_upload": 1,
     "stale": false,
-    "error": "HTTP 500"
+    "error": null
   },
   {
     "channel_id": "UCYIOsXZKBCP_2L50v2fN_ww",
@@ -885,7 +885,7 @@
     "parent": "vlog",
     "ok": true,
     "entry_count": 15,
-    "latest_published": "2026-09-14T03:15:03+00:00",
+    "latest_published": "2026-09-14T09:00:18+00:00",
     "days_since_upload": 0,
     "stale": false,
     "error": null
@@ -894,12 +894,12 @@
     "channel_id": "UCq7bR6RxqqOx8cptc1-0AVQ",
     "title": "Allblanc TV",
     "parent": "fitness",
-    "ok": false,
-    "entry_count": 0,
-    "latest_published": null,
-    "days_since_upload": null,
+    "ok": true,
+    "entry_count": 15,
+    "latest_published": "2026-09-14T12:02:26+00:00",
+    "days_since_upload": 0,
     "stale": false,
-    "error": "HTTP 500"
+    "error": null
   },
   {
     "channel_id": "UC4yq3FWEWqMvFNFBsV3gbKQ",
@@ -916,34 +916,34 @@
     "channel_id": "UCKEspD9kts44sG5E80kQcjQ",
     "title": "이지은 다이어트 Jiny diet",
     "parent": "fitness",
-    "ok": false,
-    "entry_count": 0,
-    "latest_published": null,
-    "days_since_upload": null,
+    "ok": true,
+    "entry_count": 15,
+    "latest_published": "2026-09-09T08:40:34+00:00",
+    "days_since_upload": 5,
     "stale": false,
-    "error": "HTTP 500"
+    "error": null
   },
   {
     "channel_id": "UC3hRpIQ4x5niJDwjajQSVPg",
     "title": "핏블리 FITVELY",
     "parent": "fitness",
-    "ok": false,
-    "entry_count": 0,
-    "latest_published": null,
-    "days_since_upload": null,
+    "ok": true,
+    "entry_count": 15,
+    "latest_published": "2026-09-14T03:42:40+00:00",
+    "days_since_upload": 0,
     "stale": false,
-    "error": "HTTP 404"
+    "error": null
   },
   {
     "channel_id": "UCHVuoHrPWWTD67Ln1jV4Bew",
     "title": "흥둥이",
     "parent": "fitness",
-    "ok": false,
-    "entry_count": 0,
-    "latest_published": null,
-    "days_since_upload": null,
+    "ok": true,
+    "entry_count": 15,
+    "latest_published": "2026-09-11T13:20:52+00:00",
+    "days_since_upload": 3,
     "stale": false,
-    "error": "HTTP 404"
+    "error": null
   },
   {
     "channel_id": "UCF97u_Y5C3FxAcD0nn1DCKQ",
@@ -952,7 +952,7 @@
     "ok": true,
     "entry_count": 15,
     "latest_published": "2026-08-10T10:21:38+00:00",
-    "days_since_upload": 34,
+    "days_since_upload": 35,
     "stale": false,
     "error": null
   },
@@ -963,7 +963,7 @@
     "ok": true,
     "entry_count": 15,
     "latest_published": "2026-08-18T09:00:12+00:00",
-    "days_since_upload": 26,
+    "days_since_upload": 27,
     "stale": false,
     "error": null
   },
@@ -971,67 +971,67 @@
     "channel_id": "UCRGZCFuFCwp2D_YKByrqRfw",
     "title": "에이핏 afit",
     "parent": "fitness",
-    "ok": false,
-    "entry_count": 0,
-    "latest_published": null,
-    "days_since_upload": null,
+    "ok": true,
+    "entry_count": 15,
+    "latest_published": "2026-08-03T10:01:46+00:00",
+    "days_since_upload": 42,
     "stale": false,
-    "error": "HTTP 404"
+    "error": null
   },
   {
     "channel_id": "UCxWRe2A7LMTEwMBErR4DkgQ",
     "title": "삐약스핏 [살빼주는 병맛 다이어트채널]",
     "parent": "fitness",
-    "ok": false,
-    "entry_count": 0,
-    "latest_published": null,
-    "days_since_upload": null,
+    "ok": true,
+    "entry_count": 15,
+    "latest_published": "2026-09-14T08:37:30+00:00",
+    "days_since_upload": 0,
     "stale": false,
-    "error": "HTTP 404"
+    "error": null
   },
   {
     "channel_id": "UCygs-_iDpCJOnhuCZibK7JQ",
     "title": "흑자헬스 SurplusHealth",
     "parent": "fitness",
-    "ok": false,
-    "entry_count": 0,
-    "latest_published": null,
-    "days_since_upload": null,
+    "ok": true,
+    "entry_count": 15,
+    "latest_published": "2026-09-13T22:00:34+00:00",
+    "days_since_upload": 0,
     "stale": false,
-    "error": "HTTP 404"
+    "error": null
   },
   {
     "channel_id": "UCRrZ5RYIalHLiHq5ftzxM6A",
     "title": "빵느",
     "parent": "fitness",
-    "ok": false,
-    "entry_count": 0,
-    "latest_published": null,
-    "days_since_upload": null,
+    "ok": true,
+    "entry_count": 15,
+    "latest_published": "2026-09-07T09:00:26+00:00",
+    "days_since_upload": 7,
     "stale": false,
-    "error": "HTTP 500"
+    "error": null
   },
   {
     "channel_id": "UCo_-ny9SP5Pbz8KM1KKchbA",
     "title": "세계적으로 유명한 운동 정보",
     "parent": "fitness",
-    "ok": false,
-    "entry_count": 0,
-    "latest_published": null,
-    "days_since_upload": null,
+    "ok": true,
+    "entry_count": 15,
+    "latest_published": "2026-06-18T10:00:04+00:00",
+    "days_since_upload": 88,
     "stale": false,
-    "error": "HTTP 404"
+    "error": null
   },
   {
     "channel_id": "UCDVQ0yDp7Bu-BxEfelTHL8g",
     "title": "바벨라토르 홈트레이닝 BARBELLATOR",
     "parent": "fitness",
-    "ok": false,
-    "entry_count": 0,
-    "latest_published": null,
-    "days_since_upload": null,
+    "ok": true,
+    "entry_count": 15,
+    "latest_published": "2026-09-14T08:57:25+00:00",
+    "days_since_upload": 0,
     "stale": false,
-    "error": "HTTP 500"
+    "error": null
   },
   {
     "channel_id": "UCK2YrOMgAbsAraGrWyyAvdw",
@@ -1040,7 +1040,7 @@
     "ok": true,
     "entry_count": 15,
     "latest_published": "2026-09-13T07:33:21+00:00",
-    "days_since_upload": 0,
+    "days_since_upload": 1,
     "stale": false,
     "error": null
   },
@@ -1048,23 +1048,23 @@
     "channel_id": "UCc5mVNF4R6ywMqbty91J0rQ",
     "title": "김명섭의 헬스교실",
     "parent": "fitness",
-    "ok": false,
-    "entry_count": 0,
-    "latest_published": null,
-    "days_since_upload": null,
+    "ok": true,
+    "entry_count": 15,
+    "latest_published": "2026-09-14T09:00:28+00:00",
+    "days_since_upload": 0,
     "stale": false,
-    "error": "HTTP 500"
+    "error": null
   },
   {
     "channel_id": "UC2CmamCD9CTWs4vo_t_gt9Q",
     "title": "다이어트 해커 이서울",
     "parent": "fitness",
-    "ok": false,
-    "entry_count": 0,
-    "latest_published": null,
-    "days_since_upload": null,
+    "ok": true,
+    "entry_count": 15,
+    "latest_published": "2026-09-12T06:47:11+00:00",
+    "days_since_upload": 2,
     "stale": false,
-    "error": "HTTP 500"
+    "error": null
   },
   {
     "channel_id": "UCcMSJmR90Y_McofszAVxjAQ",
@@ -1072,7 +1072,7 @@
     "parent": "fitness",
     "ok": true,
     "entry_count": 15,
-    "latest_published": "2026-09-13T04:00:34+00:00",
+    "latest_published": "2026-09-14T08:00:16+00:00",
     "days_since_upload": 0,
     "stale": false,
     "error": null
