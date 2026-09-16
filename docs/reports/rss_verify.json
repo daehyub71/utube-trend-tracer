@@ -171,7 +171,7 @@
     "ok": true,
     "entry_count": 15,
     "latest_published": "2026-09-12T15:04:20+00:00",
-    "days_since_upload": 3,
+    "days_since_upload": 4,
     "stale": false,
     "error": null
   },
@@ -302,7 +302,7 @@
     "parent": "travel",
     "ok": true,
     "entry_count": 15,
-    "latest_published": "2026-09-16T07:53:53+00:00",
+    "latest_published": "2026-09-16T14:37:39+00:00",
     "days_since_upload": 0,
     "stale": false,
     "error": null
@@ -347,7 +347,7 @@
     "ok": true,
     "entry_count": 15,
     "latest_published": "2026-09-01T16:33:00+00:00",
-    "days_since_upload": 14,
+    "days_since_upload": 15,
     "stale": false,
     "error": null
   },
@@ -467,8 +467,8 @@
     "parent": "tech",
     "ok": true,
     "entry_count": 15,
-    "latest_published": "2026-09-14T14:23:12+00:00",
-    "days_since_upload": 1,
+    "latest_published": "2026-09-16T15:20:51+00:00",
+    "days_since_upload": 0,
     "stale": false,
     "error": null
   },
@@ -479,7 +479,7 @@
     "ok": true,
     "entry_count": 15,
     "latest_published": "2026-09-06T13:12:43+00:00",
-    "days_since_upload": 9,
+    "days_since_upload": 10,
     "stale": false,
     "error": null
   },
@@ -522,7 +522,7 @@
     "parent": "tech",
     "ok": true,
     "entry_count": 15,
-    "latest_published": "2026-09-16T12:37:09+00:00",
+    "latest_published": "2026-09-16T13:51:20+00:00",
     "days_since_upload": 0,
     "stale": false,
     "error": null
@@ -644,7 +644,7 @@
     "ok": true,
     "entry_count": 15,
     "latest_published": "2026-09-09T14:57:31+00:00",
-    "days_since_upload": 6,
+    "days_since_upload": 7,
     "stale": false,
     "error": null
   },
@@ -984,7 +984,7 @@
     "parent": "fitness",
     "ok": true,
     "entry_count": 15,
-    "latest_published": "2026-09-16T12:50:22+00:00",
+    "latest_published": "2026-09-16T16:32:35+00:00",
     "days_since_upload": 0,
     "stale": false,
     "error": null
