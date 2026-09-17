@@ -171,7 +171,7 @@
     "ok": true,
     "entry_count": 15,
     "latest_published": "2026-09-12T15:04:20+00:00",
-    "days_since_upload": 4,
+    "days_since_upload": 5,
     "stale": false,
     "error": null
   },
@@ -181,7 +181,7 @@
     "parent": "food",
     "ok": true,
     "entry_count": 15,
-    "latest_published": "2026-09-17T02:48:34+00:00",
+    "latest_published": "2026-09-17T14:53:38+00:00",
     "days_since_upload": 0,
     "stale": false,
     "error": null
@@ -214,8 +214,8 @@
     "parent": "travel",
     "ok": true,
     "entry_count": 15,
-    "latest_published": "2026-09-16T12:51:06+00:00",
-    "days_since_upload": 1,
+    "latest_published": "2026-09-17T13:50:42+00:00",
+    "days_since_upload": 0,
     "stale": false,
     "error": null
   },
@@ -347,7 +347,7 @@
     "ok": true,
     "entry_count": 15,
     "latest_published": "2026-09-01T16:33:00+00:00",
-    "days_since_upload": 15,
+    "days_since_upload": 16,
     "stale": false,
     "error": null
   },
@@ -412,8 +412,8 @@
     "parent": "tech",
     "ok": true,
     "entry_count": 15,
-    "latest_published": "2026-09-12T03:00:19+00:00",
-    "days_since_upload": 5,
+    "latest_published": "2026-09-17T13:07:50+00:00",
+    "days_since_upload": 0,
     "stale": false,
     "error": null
   },
@@ -467,7 +467,7 @@
     "parent": "tech",
     "ok": true,
     "entry_count": 15,
-    "latest_published": "2026-09-16T15:20:51+00:00",
+    "latest_published": "2026-09-17T13:47:56+00:00",
     "days_since_upload": 0,
     "stale": false,
     "error": null
@@ -479,7 +479,7 @@
     "ok": true,
     "entry_count": 15,
     "latest_published": "2026-09-06T13:12:43+00:00",
-    "days_since_upload": 10,
+    "days_since_upload": 11,
     "stale": false,
     "error": null
   },
@@ -644,7 +644,7 @@
     "ok": true,
     "entry_count": 15,
     "latest_published": "2026-09-09T14:57:31+00:00",
-    "days_since_upload": 7,
+    "days_since_upload": 8,
     "stale": false,
     "error": null
   },
