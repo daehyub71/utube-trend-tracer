@@ -171,7 +171,7 @@
     "ok": true,
     "entry_count": 15,
     "latest_published": "2026-09-12T15:04:20+00:00",
-    "days_since_upload": 5,
+    "days_since_upload": 6,
     "stale": false,
     "error": null
   },
@@ -215,7 +215,7 @@
     "ok": true,
     "entry_count": 15,
     "latest_published": "2026-09-17T13:50:42+00:00",
-    "days_since_upload": 0,
+    "days_since_upload": 1,
     "stale": false,
     "error": null
   },
@@ -347,7 +347,7 @@
     "ok": true,
     "entry_count": 15,
     "latest_published": "2026-09-01T16:33:00+00:00",
-    "days_since_upload": 16,
+    "days_since_upload": 17,
     "stale": false,
     "error": null
   },
@@ -423,8 +423,8 @@
     "parent": "tech",
     "ok": true,
     "entry_count": 15,
-    "latest_published": "2026-09-17T11:01:52+00:00",
-    "days_since_upload": 1,
+    "latest_published": "2026-09-18T12:43:31+00:00",
+    "days_since_upload": 0,
     "stale": false,
     "error": null
   },
@@ -468,7 +468,7 @@
     "ok": true,
     "entry_count": 15,
     "latest_published": "2026-09-17T13:47:56+00:00",
-    "days_since_upload": 0,
+    "days_since_upload": 1,
     "stale": false,
     "error": null
   },
@@ -479,7 +479,7 @@
     "ok": true,
     "entry_count": 15,
     "latest_published": "2026-09-06T13:12:43+00:00",
-    "days_since_upload": 11,
+    "days_since_upload": 12,
     "stale": false,
     "error": null
   },
@@ -522,7 +522,7 @@
     "parent": "tech",
     "ok": true,
     "entry_count": 15,
-    "latest_published": "2026-09-18T07:54:12+00:00",
+    "latest_published": "2026-09-18T13:25:57+00:00",
     "days_since_upload": 0,
     "stale": false,
     "error": null
@@ -644,7 +644,7 @@
     "ok": true,
     "entry_count": 15,
     "latest_published": "2026-09-09T14:57:31+00:00",
-    "days_since_upload": 8,
+    "days_since_upload": 9,
     "stale": false,
     "error": null
   },
@@ -698,7 +698,7 @@
     "parent": "aicoding",
     "ok": true,
     "entry_count": 15,
-    "latest_published": "2026-09-18T10:00:01+00:00",
+    "latest_published": "2026-09-18T08:00:34+00:00",
     "days_since_upload": 0,
     "stale": false,
     "error": null
@@ -809,7 +809,7 @@
     "ok": true,
     "entry_count": 15,
     "latest_published": "2026-09-07T13:00:32+00:00",
-    "days_since_upload": 10,
+    "days_since_upload": 11,
     "stale": false,
     "error": null
   },
