@@ -170,7 +170,7 @@
     "parent": "food",
     "ok": true,
     "entry_count": 15,
-    "latest_published": "2026-09-19T16:49:38+00:00",
+    "latest_published": "2026-09-20T14:49:35+00:00",
     "days_since_upload": 0,
     "stale": false,
     "error": null
@@ -181,7 +181,7 @@
     "parent": "food",
     "ok": true,
     "entry_count": 15,
-    "latest_published": "2026-09-20T09:31:11+00:00",
+    "latest_published": "2026-09-20T14:38:24+00:00",
     "days_since_upload": 0,
     "stale": false,
     "error": null
@@ -214,8 +214,8 @@
     "parent": "travel",
     "ok": true,
     "entry_count": 15,
-    "latest_published": "2026-09-17T13:50:42+00:00",
-    "days_since_upload": 2,
+    "latest_published": "2026-09-20T13:19:16+00:00",
+    "days_since_upload": 0,
     "stale": false,
     "error": null
   },
@@ -302,7 +302,7 @@
     "parent": "travel",
     "ok": true,
     "entry_count": 15,
-    "latest_published": "2026-09-20T07:14:35+00:00",
+    "latest_published": "2026-09-20T16:21:54+00:00",
     "days_since_upload": 0,
     "stale": false,
     "error": null
@@ -347,7 +347,7 @@
     "ok": true,
     "entry_count": 15,
     "latest_published": "2026-09-01T16:33:00+00:00",
-    "days_since_upload": 18,
+    "days_since_upload": 19,
     "stale": false,
     "error": null
   },
@@ -479,7 +479,7 @@
     "ok": true,
     "entry_count": 15,
     "latest_published": "2026-09-06T13:12:43+00:00",
-    "days_since_upload": 13,
+    "days_since_upload": 14,
     "stale": false,
     "error": null
   },
@@ -523,7 +523,7 @@
     "ok": true,
     "entry_count": 15,
     "latest_published": "2026-09-19T16:00:09+00:00",
-    "days_since_upload": 0,
+    "days_since_upload": 1,
     "stale": false,
     "error": null
   },
@@ -644,7 +644,7 @@
     "ok": true,
     "entry_count": 15,
     "latest_published": "2026-09-09T14:57:31+00:00",
-    "days_since_upload": 10,
+    "days_since_upload": 11,
     "stale": false,
     "error": null
   },
@@ -809,7 +809,7 @@
     "ok": true,
     "entry_count": 15,
     "latest_published": "2026-09-07T13:00:32+00:00",
-    "days_since_upload": 12,
+    "days_since_upload": 13,
     "stale": false,
     "error": null
   },
