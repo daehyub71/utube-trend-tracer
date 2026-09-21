@@ -181,7 +181,7 @@
     "parent": "food",
     "ok": true,
     "entry_count": 15,
-    "latest_published": "2026-09-21T12:23:26+00:00",
+    "latest_published": "2026-09-21T05:54:19+00:00",
     "days_since_upload": 0,
     "stale": false,
     "error": null
@@ -347,7 +347,7 @@
     "ok": true,
     "entry_count": 15,
     "latest_published": "2026-09-01T16:33:00+00:00",
-    "days_since_upload": 19,
+    "days_since_upload": 20,
     "stale": false,
     "error": null
   },
@@ -412,7 +412,7 @@
     "parent": "tech",
     "ok": true,
     "entry_count": 15,
-    "latest_published": "2026-09-21T10:30:03+00:00",
+    "latest_published": "2026-09-21T16:14:34+00:00",
     "days_since_upload": 0,
     "stale": false,
     "error": null
@@ -566,7 +566,7 @@
     "parent": "aicoding",
     "ok": true,
     "entry_count": 15,
-    "latest_published": "2026-09-21T13:38:31+00:00",
+    "latest_published": "2026-09-21T16:13:34+00:00",
     "days_since_upload": 0,
     "stale": false,
     "error": null
@@ -984,7 +984,7 @@
     "parent": "fitness",
     "ok": true,
     "entry_count": 15,
-    "latest_published": "2026-09-21T09:03:34+00:00",
+    "latest_published": "2026-09-21T14:53:07+00:00",
     "days_since_upload": 0,
     "stale": false,
     "error": null
