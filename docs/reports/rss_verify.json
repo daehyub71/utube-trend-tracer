@@ -347,7 +347,7 @@
     "ok": true,
     "entry_count": 15,
     "latest_published": "2026-09-01T16:33:00+00:00",
-    "days_since_upload": 29,
+    "days_since_upload": 30,
     "stale": false,
     "error": null
   },
@@ -357,8 +357,8 @@
     "parent": "travel",
     "ok": true,
     "entry_count": 15,
-    "latest_published": "2026-09-16T08:37:26+00:00",
-    "days_since_upload": 15,
+    "latest_published": "2026-10-01T15:25:45+00:00",
+    "days_since_upload": 0,
     "stale": false,
     "error": null
   },
@@ -522,7 +522,7 @@
     "parent": "tech",
     "ok": true,
     "entry_count": 15,
-    "latest_published": "2026-10-01T03:20:36+00:00",
+    "latest_published": "2026-10-01T18:28:24+00:00",
     "days_since_upload": 0,
     "stale": false,
     "error": null
@@ -995,7 +995,7 @@
     "parent": "fitness",
     "ok": true,
     "entry_count": 15,
-    "latest_published": "2026-10-01T13:46:06+00:00",
+    "latest_published": "2026-09-30T22:00:07+00:00",
     "days_since_upload": 0,
     "stale": false,
     "error": null
