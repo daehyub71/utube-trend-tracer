@@ -71,7 +71,7 @@
     "parent": "food",
     "ok": true,
     "entry_count": 15,
-    "latest_published": "2026-10-03T15:39:48+00:00",
+    "latest_published": "2026-10-04T15:43:01+00:00",
     "days_since_upload": 0,
     "stale": false,
     "error": null
@@ -170,7 +170,7 @@
     "parent": "food",
     "ok": true,
     "entry_count": 15,
-    "latest_published": "2026-10-03T16:44:13+00:00",
+    "latest_published": "2026-10-04T14:55:32+00:00",
     "days_since_upload": 0,
     "stale": false,
     "error": null
@@ -214,8 +214,8 @@
     "parent": "travel",
     "ok": true,
     "entry_count": 15,
-    "latest_published": "2026-09-20T13:19:16+00:00",
-    "days_since_upload": 14,
+    "latest_published": "2026-10-04T14:58:29+00:00",
+    "days_since_upload": 0,
     "stale": false,
     "error": null
   },
@@ -302,7 +302,7 @@
     "parent": "travel",
     "ok": true,
     "entry_count": 15,
-    "latest_published": "2026-10-04T05:21:07+00:00",
+    "latest_published": "2026-10-04T14:27:19+00:00",
     "days_since_upload": 0,
     "stale": false,
     "error": null
@@ -347,7 +347,7 @@
     "ok": true,
     "entry_count": 15,
     "latest_published": "2026-09-01T16:33:00+00:00",
-    "days_since_upload": 32,
+    "days_since_upload": 33,
     "stale": false,
     "error": null
   },
@@ -468,7 +468,7 @@
     "ok": true,
     "entry_count": 15,
     "latest_published": "2026-10-01T14:35:18+00:00",
-    "days_since_upload": 2,
+    "days_since_upload": 3,
     "stale": false,
     "error": null
   },
@@ -809,7 +809,7 @@
     "ok": true,
     "entry_count": 15,
     "latest_published": "2026-09-28T14:37:18+00:00",
-    "days_since_upload": 5,
+    "days_since_upload": 6,
     "stale": false,
     "error": null
   },
@@ -896,7 +896,7 @@
     "parent": "fitness",
     "ok": true,
     "entry_count": 15,
-    "latest_published": "2026-10-04T12:02:20+00:00",
+    "latest_published": "2026-10-04T14:33:34+00:00",
     "days_since_upload": 0,
     "stale": false,
     "error": null
@@ -984,7 +984,7 @@
     "parent": "fitness",
     "ok": true,
     "entry_count": 15,
-    "latest_published": "2026-10-04T12:48:57+00:00",
+    "latest_published": "2026-10-04T14:53:50+00:00",
     "days_since_upload": 0,
     "stale": false,
     "error": null
