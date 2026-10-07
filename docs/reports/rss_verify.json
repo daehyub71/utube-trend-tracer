@@ -71,7 +71,7 @@
     "parent": "food",
     "ok": true,
     "entry_count": 15,
-    "latest_published": "2026-10-06T17:02:02+00:00",
+    "latest_published": "2026-10-07T18:09:23+00:00",
     "days_since_upload": 0,
     "stale": false,
     "error": null
@@ -181,8 +181,8 @@
     "parent": "food",
     "ok": true,
     "entry_count": 15,
-    "latest_published": "2026-10-07T11:38:14+00:00",
-    "days_since_upload": 0,
+    "latest_published": "2026-10-06T14:00:33+00:00",
+    "days_since_upload": 1,
     "stale": false,
     "error": null
   },
@@ -347,7 +347,7 @@
     "ok": true,
     "entry_count": 15,
     "latest_published": "2026-09-01T16:33:00+00:00",
-    "days_since_upload": 35,
+    "days_since_upload": 36,
     "stale": false,
     "error": null
   },
