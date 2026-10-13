@@ -181,7 +181,7 @@
     "parent": "food",
     "ok": true,
     "entry_count": 15,
-    "latest_published": "2026-10-13T12:32:06+00:00",
+    "latest_published": "2026-10-13T10:24:29+00:00",
     "days_since_upload": 0,
     "stale": false,
     "error": null
@@ -302,7 +302,7 @@
     "parent": "travel",
     "ok": true,
     "entry_count": 15,
-    "latest_published": "2026-10-13T03:23:01+00:00",
+    "latest_published": "2026-10-13T17:20:49+00:00",
     "days_since_upload": 0,
     "stale": false,
     "error": null
@@ -347,7 +347,7 @@
     "ok": true,
     "entry_count": 15,
     "latest_published": "2026-09-01T16:33:00+00:00",
-    "days_since_upload": 41,
+    "days_since_upload": 42,
     "stale": false,
     "error": null
   },
@@ -995,7 +995,7 @@
     "parent": "fitness",
     "ok": true,
     "entry_count": 15,
-    "latest_published": "2026-10-13T14:12:45+00:00",
+    "latest_published": "2026-10-12T22:00:09+00:00",
     "days_since_upload": 0,
     "stale": false,
     "error": null
