@@ -71,7 +71,7 @@
     "parent": "food",
     "ok": true,
     "entry_count": 15,
-    "latest_published": "2026-10-15T22:00:21+00:00",
+    "latest_published": "2026-10-16T16:30:28+00:00",
     "days_since_upload": 0,
     "stale": false,
     "error": null
@@ -215,7 +215,7 @@
     "ok": true,
     "entry_count": 15,
     "latest_published": "2026-10-14T14:44:21+00:00",
-    "days_since_upload": 1,
+    "days_since_upload": 2,
     "stale": false,
     "error": null
   },
@@ -302,7 +302,7 @@
     "parent": "travel",
     "ok": true,
     "entry_count": 15,
-    "latest_published": "2026-10-16T05:50:23+00:00",
+    "latest_published": "2026-10-16T18:14:09+00:00",
     "days_since_upload": 0,
     "stale": false,
     "error": null
@@ -347,7 +347,7 @@
     "ok": true,
     "entry_count": 15,
     "latest_published": "2026-09-01T16:33:00+00:00",
-    "days_since_upload": 44,
+    "days_since_upload": 45,
     "stale": false,
     "error": null
   },
@@ -358,7 +358,7 @@
     "ok": true,
     "entry_count": 15,
     "latest_published": "2026-10-14T17:55:05+00:00",
-    "days_since_upload": 1,
+    "days_since_upload": 2,
     "stale": false,
     "error": null
   },
@@ -456,7 +456,7 @@
     "parent": "tech",
     "ok": true,
     "entry_count": 15,
-    "latest_published": "2026-10-16T07:00:30+00:00",
+    "latest_published": "2026-10-16T14:57:46+00:00",
     "days_since_upload": 0,
     "stale": false,
     "error": null
@@ -501,7 +501,7 @@
     "ok": true,
     "entry_count": 15,
     "latest_published": "2026-10-11T13:48:59+00:00",
-    "days_since_upload": 4,
+    "days_since_upload": 5,
     "stale": false,
     "error": null
   },
@@ -743,7 +743,7 @@
     "ok": true,
     "entry_count": 15,
     "latest_published": "2026-10-14T13:15:22+00:00",
-    "days_since_upload": 1,
+    "days_since_upload": 2,
     "stale": false,
     "error": null
   },
@@ -787,7 +787,7 @@
     "ok": true,
     "entry_count": 15,
     "latest_published": "2026-10-15T13:33:23+00:00",
-    "days_since_upload": 0,
+    "days_since_upload": 1,
     "stale": false,
     "error": null
   },
@@ -984,7 +984,7 @@
     "parent": "fitness",
     "ok": true,
     "entry_count": 15,
-    "latest_published": "2026-10-16T02:51:46+00:00",
+    "latest_published": "2026-10-16T13:15:46+00:00",
     "days_since_upload": 0,
     "stale": false,
     "error": null
@@ -1040,7 +1040,7 @@
     "ok": true,
     "entry_count": 15,
     "latest_published": "2026-10-13T13:25:07+00:00",
-    "days_since_upload": 2,
+    "days_since_upload": 3,
     "stale": false,
     "error": null
   },
